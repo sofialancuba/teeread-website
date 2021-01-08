@@ -1228,10 +1228,6 @@ label.error {
   background-color: #aaaaaa;
 }
 
-#pp-nav li .active span {
-  background-color: #35b1ff;
-}
-
 @media (min-width: 1600px) {
   #pp-nav.right {
     right: 3.5rem;
@@ -1401,7 +1397,7 @@ label.error {
     padding-top: 0 !important;
   }
   .slide-container {
-    padding-bottom: 0.25rem;
+    padding-bottom: 0;
   }
   .width-btn {
     margin-left: 30px;
@@ -1620,7 +1616,8 @@ label.error {
 
 @media (max-width: 767px) {
   .show-phone,
-  .show-btn-wailist {
+  .show-btn-wailist,
+  .show-photo-testimonials {
     display: block !important;
   }
   .font-size-item-descr {
@@ -1642,6 +1639,7 @@ label.error {
     top: 66.5% !important;
   }
   .container-teacher {
+    margin-bottom: 250px !important;
     margin-top: 0 !important;
   }
 }
@@ -2643,4 +2641,32 @@ ul.menu-footer > li.title-menu-footer {
   html {
     font-size: 16px;
   }
+}
+
+/*-------------------------------------------------------------------------------
+  How it works
+-------------------------------------------------------------------------------*/
+
+.slide-title-how-it-works {
+  margin-bottom: 2rem;
+  font-size: 8vmin;
+  font-family: "Monserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1;
+  color: #35b1ff;
+}
+
+.color-blue {
+  color: #5864ff;
+}
+
+.slide-triangle-blue-how-it-works {
+  width: auto;
+  height: 30rem;
+  right: 8.0625rem !important;
+  top: 20.518519% !important;
+  bottom: auto;
+  left: auto !important;
+  -webkit-animation: ring_animation 15s linear infinite;
+  animation: ring_animation 15s linear infinite;
 }
