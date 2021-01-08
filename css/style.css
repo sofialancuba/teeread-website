@@ -2670,3 +2670,7 @@ ul.menu-footer > li.title-menu-footer {
   -webkit-animation: ring_animation 15s linear infinite;
   animation: ring_animation 15s linear infinite;
 }
+
+.d-contents {
+  display: contents;
+}
