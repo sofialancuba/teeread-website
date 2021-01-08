@@ -58,13 +58,13 @@
       menu: "#menu, #menuMain",
       anchors: [
         "Intro",
-        "Services",
-        "Projects",
-        "Awards",
-        "Experience",
-        "Clients",
-        "Testimonials",
-        "Contact",
+        "Assess",
+        "Library",
+        "Teacher",
+        // "Experience",
+        // "Clients",
+        // "Testimonials",
+        // "Contact",
       ],
       loopTop: false,
       loopBottom: false,
@@ -99,17 +99,15 @@
 
   if ($(".a-carousel-projects").length) {
     $(".a-carousel-projects").owlCarousel({
-      animateIn: "fadeIn",
-      animateOut: "fadeOut",
       items: 1,
       navText: [
-        '<i class="lni lni-chevron-left"></i>',
-        '<i class="lni lni-chevron-right"></i>',
+        '<i class="lni lni-chevron-left-circle"></i>',
+        '<i class="lni lni-chevron-right-circle"></i>',
       ],
       smartSpeed: 750,
+      margin: 30,
       dots: false,
       nav: true,
-      loop: true,
     });
   }
 
@@ -133,8 +131,8 @@
     $(".a-carousel-testimonial").owlCarousel({
       items: 1,
       navText: [
-        '<i class="lni lni-chevron-left"></i>',
-        '<i class="lni lni-chevron-right"></i>',
+        '<i class="lni lni-chevron-left-circle"></i>',
+        '<i class="lni lni-chevron-right-circle"></i>',
       ],
       smartSpeed: 750,
       margin: 30,
