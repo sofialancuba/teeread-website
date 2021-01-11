@@ -2674,3 +2674,20 @@ ul.menu-footer > li.title-menu-footer {
 .d-contents {
   display: contents;
 }
+
+/*-------------------------------------------------------------------------------
+  MAILCHIMP
+-------------------------------------------------------------------------------*/
+
+#mc_embed_signup div#mce-responses {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#mc_embed_signup #mce-success-response {
+  color: #40d78f !important;
+}
+
+#mc_embed_signup form {
+  padding: 0 !important;
+}
