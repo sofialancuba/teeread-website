@@ -785,8 +785,8 @@ label.error {
 
 @media (min-width: 768px) {
   .header {
-    padding-top: 2.75rem;
-    padding-bottom: 2.75rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
 
@@ -1338,8 +1338,8 @@ label.error {
 
 .slide-descr {
   color: #999999;
-  font-size: 1.125rem;
-  line-height: 1.66666667;
+  font-size: 1.3rem;
+  line-height: 1.5;
 }
 
 .slide-descr-testimonials {
@@ -1717,7 +1717,7 @@ label.error {
 
 .slide-personal-services .slide-title-info {
   margin-top: 1.25rem;
-  margin-bottom: 8.33333333vmin;
+  margin-bottom: 3.333333vmin;
 }
 
 .service-list {
