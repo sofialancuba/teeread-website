@@ -6,7 +6,7 @@ if ($(".a-pagepiling").length) {
   $(".a-pagepiling").pagepiling({
     scrollingSpeed: 280,
     menu: "#menu, #menuMain",
-    anchors: ["Intro", "a", "b", "c"],
+    anchors: ["step1", "step2", "step3", "step4", "step5", "finish"],
     loopTop: false,
     loopBottom: false,
     navigation: {
