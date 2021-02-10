@@ -1767,12 +1767,12 @@ label.error {
 .slide-koala-gif {
   width: auto;
   height: 31.3125rem;
-  right: 10.0625rem;
+  right: 18.0625rem;
   top: 21.518519%;
   bottom: auto;
   left: auto !important;
-  -webkit-animation: ring_animation 15s linear infinite;
-  animation: ring_animation 15s linear infinite;
+  /* -webkit-animation: ring_animation 15s linear infinite;
+  animation: ring_animation 15s linear infinite; */
 }
 
 .slide-circle3 {
@@ -1827,6 +1827,12 @@ label.error {
   }
 }
 
+@media (max-width: 1199px) {
+  .slide-koala-gif {
+    right: 13.0625rem;
+  }
+}
+
 @media (max-width: 1073px) {
   .slide-photo1 {
     height: 23.3125rem !important;
@@ -1840,6 +1846,16 @@ label.error {
 @media (max-width: 991px) {
   .card-custom-padding {
     padding-top: 39px;
+  }
+  .slide-koala-gif {
+    height: 29.3125rem;
+    right: 11.0625rem;
+  }
+}
+
+@media (max-width: 912px) {
+  .slide-koala-gif {
+    right: 8.0625rem;
   }
 }
 
