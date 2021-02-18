@@ -16,13 +16,11 @@
     <link href="css/jquery.pagepiling.css" rel="stylesheet">
     <link href="css/jquery.fancybox.min.css" rel="stylesheet">
     <link href="css/LineIcons.css" rel="stylesheet">
+    <link href="css/verticalLoaders.css" rel="stylesheet">
 
     <!-- Main CSS -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/pagepiling.index.css" rel="stylesheet">
-
-    <!-- mailchimp -->
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <link href="css/pagepiling.how.it.works.css" rel="stylesheet">
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
@@ -34,15 +32,6 @@
     <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169179571-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-169179571-1');
-    </script>
   </head>
 
   <body class="body-copyright-light">
@@ -122,8 +111,8 @@
 
           <nav class="menu-main" id="accordion">
             <ul id="menuMain">
-                <li class="active"><a href="index.html">Teeread</a></li>
-                <li><a href="howItWorks.html">How it works</a></li>
+                <li><a href="index.html">Teeread</a></li>
+                <li class="active"><a href="howItWorks.html">How it works</a></li>
                 <li><a href="whyIsReadingImportant.html">Why reading?</a></li>
               </ul>
           </nav>
@@ -145,99 +134,27 @@
 
           <!-- SECTION-1 -->
           <div class="section pp-scrollable slide-dark slide-dark-footer">
-            <div class="slide-container pt-5 py-md-none">
-              <div class="slide-bg animate-element delay5 fadeInRight d-none d-md-block d-lg-block d-xl-block">
-                <img src="img/teacher-intro.png" alt="" class="slide-photo slide-teacher-intro">
+            <div class="slide-container py-md-none">
+              <div class="slide-bg animate-element delay5 fadeInLeft">
+                <img src="img/triangle-blue.png" alt="" class="slide-photo slide-triangle-blue-how-it-works">
               </div>
-              <div class="slide-bg animate-element delay5 fadeInDown">
-                <div class="slide-photo slide-intro-background-mobile transformLeft"></div>
-              </div>
-              <div class="container">
-                <div class="row">
-                  <div class="col-12 col-md-8 col-lg-6 z-index-1">
-                    <h1 class="slide-title animate-element delay4 fadeInDown slide-title-white-mobile">Assess your student’s reading automatically</h1>
+              <div class="container container-mt">
+                <div class="row d-flex align-items-center justify-content-center">
+                  <div class="col-12 col-md-6 col-lg-6 z-index-1">
+                    <h1 class="slide-title-how-it-works animate-element delay4 fadeInDown">How it works</h1>
                     <div class="animate-element delay6 fadeInUp">
-                      <div class="slide-descr slide-descr-intro slide-descr-white-mobile">Try the first-automated literacy assistant co-created with teachers</div>
-                      <div class="slide-btn row">
-                        <div class="col-12 col-md-6 btn-intro">
-                          <button class="btn btn-primary width-btn" data-toggle="modal" data-target="#send-request">Join the waitlist</button>
-                        </div>
-                        <!-- ---------------- HIDE --------------- -->
-                        <!-- <div class="col-12 col-md-6 btn-intro">
-                          <a href="howItWorks.html" class="d-contents">
-                            <button class="btn btn-outline-success width-btn">How it works</button>
-                          </a>
-                        </div> -->
-                        <!-- ---------------- /HIDE --------------- -->
-                      </div>
-                      <div class="d-none d-md-block d-lg-block d-xl-block">
-                        <div class="mt-5 d-flex">
-                          <a href="#" class="d-inline-block mr-4">
-                            <div class="d-flex align-items-center ">
-                              <img src="img/devices.png" alt="devices" class="device-icon">
-                              <div>
-                                <p class="btn-app-subtitle">Available on all devices</p>
-                                <div class="btn-app-title btn-app-title-hover" data-toggle="modal" data-target="#send-request">Try it now</div>
-                              </div>
-                            </div>
-                          </a>
-                          <div class="d-inline-block">
-                            <p class="btn-app-subtitle">Get it on</p>
-                            <div class="d-flex">
-                              <a href="https://play.google.com/store/apps/details?id=com.teeread.students" target="_blank" class="d-flex mr-3">
-                                <img src="img/google-play.png" alt="google-play-icon" class="google-apple-icon">
-                                <div class="btn-app-title btn-app-title-hover">Google play</div>
-                              </a>
-                              <a href="https://apps.apple.com/us/app/teeread-for-students/id1532436060" target="_blank" class="d-flex">
-                                <img src="img/apple.png" alt="apple-icon" class="google-apple-icon">
-                                <div class="btn-app-title btn-app-title-hover">App store</div>
-                              </a>
-                            </div>
-                              
-                          </div>
-                        </div>
-                      </div>
+                      <small>Step 1</small>
+                      <h3 class="slide-title-info color-blue">Get Started</h3>
+                      <div class="slide-descr slide-descr-intro md-text-left" style="color: #000;"><b>Create an account in under a minute</b></div>
+                      <div class="slide-descr slide-descr-intro md-text-left">Download TeeRead and upload your class with Google Classrooms or manually in under 30 seconds</div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="z-index-200 section-bar animate-element delay4 fadeInUp">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-12 d-flex align-items-center justify-content-between">
-                      <h3 class="section-bar-title animate-element delay6 fadeInUp mb-0">Currently being piloted in select schools</h3>
-                      <button class="btn btn-primary animate-element delay8 fadeInUp d-none d-md-block d-lg-block d-xl-block" data-toggle="modal" data-target="#send-request">Join the waitlist</button>
+                  <div class="col-6">
+                    <div class="animate-element delay5 fadeInRight d-flex justify-content-center gif-phone gif-phone1">
+                      <img src="img/animations/get-started.gif" alt="phone" class="phone-photo-without-animation gif-photo" style="position: absolute;">
+                      <img src="img/phone-home-2.png" alt="phone" class="phone-photo-without-animation">
+                      
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- cards -->
-            <div class="container">
-              <div class="row award-list d-flex justify-content-center my-5">
-                <div class="col-sm-12 col-md-4 col-lg-3 animate-element delay5 fadeInUp my-5">
-                  <div class="award-item-blue">
-                    <a href="#Assess">
-                      <div class="award-item-logo"><img src="img/checklist.png" alt="" /></div>
-                      <div class="award-item-descr slide-descr">Assess fluency and reading comprehension automatically</div>
-                    </a>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-4 col-lg-3 animate-element delay6 fadeInUp my-5">
-                  <div class="award-item-light-blue">
-                    <a href="#Library">
-                      <div class="award-item-logo"><img src="img/book.png" alt="" /></div>
-                      <div class="award-item-descr slide-descr">Give your students access to a personalized library of books</div>
-                    </a>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-4 col-lg-3 animate-element delay7 fadeInUp my-5">
-                  <div class="award-item-green">
-                    <a href="#Teacher">
-                      <div class="award-item-logo"><img src="img/hero.png" alt="" /></div>
-                      <div class="award-item-descr slide-descr">Co-created with and for teachers</div>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -248,28 +165,55 @@
           <div class="section pp-scrollable slide-personal-services">
             <div class="slide-container">
               <!-- circle-orange -->
-              <div class="slide-bg animate-element delay5 fadeInLeft">
-                <img src="img/ring-orange.png" alt="" class="slide-photo slide-circle1">
+              <div class="slide-bg animate-element delay5 fadeInRight">
+                <img src="img/animations/automatically.gif" alt="" class="slide-photo slide-koala-gif">
               </div>
               <div class="container">
                 <div class="row">
-                  <div class="col-12 col-md-6 d-none d-md-block d-lg-block d-xl-block">
-                    <div class="animate-element delay5 fadeInRight d-flex justify-content-center">
-                      <img src="img/phone-home-1.png" alt="phone" class="phone-photo">
-                    </div>
-                  </div>
-                  <div class="col-12 col-md-5 d-flex align-items-center">
+                  <div class="col-md-5 d-flex align-items-center" style="top: -20px;">
                     <div>
-                      <h3 class="slide-title-info animate-element delay5 fadeInDown">Assess fluency and reading comprehension automatically</h3>
-                      <div class="service-item-descr font-size-item-descr slide-descr animate-element delay5 fadeInUp">Assign a TeeRead assessment to your classroom in minutes, get access to your students’ key reading metrics and group them all within the platform.</div>
-                      <!-- ---------------- HIDE --------------- -->
-                      <div class="service-item-more animate-element delay7 fadeInUp"><a href="howItWorks.html" class="btn btn-sm btn-circle btn-success">see how it works</a></div>
-                      <!-- ---------------- /HIDE --------------- -->
+                      <small>Step 2</small>
+                      <h3 class="slide-title-info animate-element delay5 fadeInDown light-blue">Automatically assess your students</h3>
+                      <p class="slide-descr animate-element delay5 fadeInUp mb-5"><b>When students sign-in, they will automatically be asked to do a TeeRead assessment</b></p>
+                      
+                      <div class="row">
+                        <ul class="col-12 col-lg-8" style="list-style-type: none;">
+                          <li class="animate-element delay6 fadeInUp d-flex mb-3">
+                            <div class="loader">
+                              <div class="v-bar step-2-1"></div>
+                            </div>
+                            <div class="ml-3">
+                              <b>Your student receives an alert</b>
+                              <p class="mb-0">Tori, the koala, asks your students to go on an adventure together</p>
+                            </div>
+                          </li>
+                          <li class="animate-element delay7 fadeInUp d-flex mb-3">
+                            <div class="loader">
+                              <div class="v-bar step-2-2"></div>
+                            </div>
+                            <div class="ml-3">
+                              <b>She reads a story out loud</b>
+                              <p class="mb-0">A fun and engaging story is shown to the student to read out loud</p>
+                            </div>
+                          </li>
+                          <li class="animate-element delay8 fadeInUp d-flex mb-3">
+                            <div class="loader">
+                              <div class="v-bar step-2-3"></div>
+                            </div>
+                            <div class="ml-3">
+                              <b>And answers comprehension questions</b>
+                              <p class="mb-0">We assess their reading comprehension through Common Core aligned questions </p>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                      
                     </div>
+                    
                   </div>
-                  <div class="col-12 d-none show-phone mt-5">
-                    <div class="animate-element delay5 fadeInRight d-flex justify-content-center">
-                      <img src="img/phone-home-1.png" alt="phone" class="phone-photo">
+                  <div class="col-md-6 d-md-none d-block">
+                    <div class="animate-element delay5 fadeInLeft d-flex justify-content-center">
+                      <img src="img/animations/automatically.gif" alt="phone" class="koala-photo">
                     </div>
                   </div>
                 </div>
@@ -282,23 +226,63 @@
             <div class="slide-container">
               <!-- circle-orange -->
               <div class="slide-bg animate-element delay5 fadeInRight">
-                <img src="img/ring-lightblue.png" alt="" class="slide-photo slide-circle2">
+                <img src="img/ring-green.png" alt="" class="slide-photo slide-circle3">
               </div>
               <div class="container">
                 <div class="row">
                   <div class="col-md-5 d-flex align-items-center">
                     <div>
-                      <h3 class="slide-title-info animate-element delay5 fadeInDown">Give your students access to a personalized library of books</h3>
-                      <div class="service-item-descr slide-descr font-size-item-descr animate-element delay5 fadeInUp">After each assessment, your students gain access to a personalized library of just-right leveled books so they can continuously grow their love for reading.</div>
-                      <!-- ---------------- HIDE --------------- -->
-                      <div class="service-item-more animate-element delay7 fadeInUp"><a href="howItWorks.html" class="btn btn-sm btn-circle btn-success">see how it works</a></div>
-                      <!-- ---------------- /HIDE --------------- -->
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="animate-element delay5 fadeInLeft d-flex justify-content-center">
+                      <small>Step 3</small>
+                      <h3 class="slide-title-info animate-element delay5 fadeInDown green">See your students’ reports</h3>
+                      <p class="slide-descr animate-element delay5 fadeInUp mb-5"><b>You can follow your students’ reading progress through easy-to-digest and actionable reports</b></p>
                       
-                      <img src="img/phone-home-2.png" alt="phone" class="phone-photo">
+                      <div class="row">
+                        <ul class="col-12 col-lg-8" style="list-style-type: none;">
+                          <li class="animate-element delay6 fadeInUp d-flex mb-3">
+                            <div class="loader">
+                              <div class="v-bar step-3-1"></div>
+                            </div>
+                            <div class="ml-3">
+                              <b>Follow your class’ overall status​</b>
+                              <p class="mb-0">On your homepage, you can see the key stats for your classroom</p>
+                            </div>
+                          </li>
+                          <li class="animate-element delay7 fadeInUp d-flex mb-3">
+                            <div class="loader">
+                              <div class="v-bar step-3-2"></div>
+                            </div>
+                            <div class="ml-3">
+                              <b>Go into each student’s profile​</b>
+                              <p class="mb-0">In a student’s profile, you can see their progress and enter specific reports</p>
+                            </div>
+                          </li>
+                          <li class="animate-element delay8 fadeInUp d-flex mb-3">
+                            <div class="loader">
+                              <div class="v-bar step-3-3"></div>
+                            </div>
+                            <div class="ml-3">
+                              <b>Reports with actionable metrics​</b>
+                              <p class="mb-0">Reports show key comprehension and fluency metrics, as well as miscues and trouble words </p>
+                            </div>
+                          </li>
+                          <li class="animate-element delay8 fadeInUp d-flex mb-3">
+                            <div class="loader">
+                              <div class="v-bar step-3-4"></div>
+                            </div>
+                            <div class="ml-3">
+                              <b>Confirm or edit a student’s assessment​</b>
+                              <p class="mb-0">You can see the passage, listen to the student’s assessment, and edit miscues if you don’t agree with them</p>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="col-md-6 d-flex align-items-center justify-content-center gif-phone">
+                    <div class="animate-element delay5 fadeInLeft d-flex justify-content-center">
+                      <img src="img/animations/see-your-students.gif" alt="phone" class="phone-photo-without-animation gif-photo" style="position: absolute;">
+                      <img src="img/phone-home-2.png" alt="phone" class="phone-photo-without-animation">
                     </div>
                   </div>
                 </div>
@@ -310,165 +294,154 @@
           <div class="section pp-scrollable slide-personal-services">
             <div class="slide-container">
               <!-- circle-orange -->
-              <div class="slide-bg animate-element delay5 fadeInLeft">
-                <img src="img/teacher.png" alt="" class="slide-photo slide-teacher">
+              <div class="slide-bg animate-element delay5 fadeInRight">
+                <img src="img/triangle-yellow.png" alt="" class="slide-photo slide-triangle-blue-how-it-works">
               </div>
-              <div class="container container-teacher" style="margin-bottom: 200px; margin-top: 100px;">
-                <div class="row">
-                  <div class="col-md-6">
-                  </div>
-                  <div class="col-md-5 d-flex align-items-center">
-                    <div>
-                      <h3 class="slide-title-info animate-element delay5 fadeInDown">Co-created with and for teachers</h3>
-                      <div class="service-item-descr slide-descr font-size-item-descr animate-element delay5 fadeInUp">We want to be a real helper, not another platform that drains your time. That’s why TeeRead was designed with teachers to be useful in real classrooms. </div>
-                      <!-- ---------------- HIDE --------------- -->
-                      <div class="service-item-more animate-element delay7 fadeInUp"><a href="howItWorks.html" class="btn btn-sm btn-circle btn-success">see how it works</a></div>
-                      <!-- ---------------- /HIDE --------------- -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="flex-container" style="width: 100%; height: auto; padding: 1.2rem 0; background-color: #6979ff;">
               <div class="container">
                 <div class="row">
-                  <div class="col-12 d-flex align-items-center justify-content-between">
-                    <h3 class="section-bar-title animate-element delay6 fadeInUp mb-0">Currently being piloted in select schools</h3>
-                    <button class="btn btn-primary animate-element delay8 fadeInUp d-none d-md-block d-lg-block d-xl-block" data-toggle="modal" data-target="#send-request">Join the waitlist</button>
+                  <div class="col-md-5 d-flex align-items-center">
+                    <div>
+                      <small>Step 4</small>
+                      <h3 class="slide-title-info animate-element delay5 fadeInDown yellow">Give access to a personalized library</h3>
+                      <p class="slide-descr animate-element delay5 fadeInUp mb-5"><b>Your students get access to a library of books that automatically updates according to their reading progress</b></p>
+                      
+                      <div class="row">
+                        <ul class="col-12 col-lg-8" style="list-style-type: none;">
+                          <li class="animate-element delay6 fadeInUp d-flex mb-3">
+                            <div class="loader">
+                              <div class="v-bar step-4-1"></div>
+                            </div>
+                            <div class="ml-3">
+                              <b>Engaging and high-quality books that grow with them</b>
+                              <!-- <p class="mb-0">On your homepage you can see the key stats for your classroom</p> -->
+                            </div>
+                          </li>
+                          <li class="animate-element delay7 fadeInUp d-flex mb-3">
+                            <div class="loader">
+                              <div class="v-bar step-4-2"></div>
+                            </div>
+                            <div class="ml-3">
+                              <b>Students can share the books with their classmates ​</b>
+                              <!-- <p class="mb-0">In a student’s profile you can see their progress and enter specific reports</p> -->
+                            </div>
+                          </li>
+                          <li class="animate-element delay8 fadeInUp d-flex mb-3">
+                            <div class="loader">
+                              <div class="v-bar step-4-3"></div>
+                            </div>
+                            <div class="ml-3">
+                              <b>Reward system put in place to foster the love of reading </b>
+                              <!-- <p class="mb-0">Reports show key comprehension and fluency metrics, as well as miscues and trouble words </p> -->
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    
                   </div>
-                  <div class="col-12 d-none show-btn-wailist mt-4">
-                    <div class="d-flex justify-content-center">
-                      <button class="btn btn-primary animate-element delay8 fadeInUp" data-toggle="modal" data-target="#send-request">Join the waitlist</button>
+                  <div class="col-md-6 d-flex align-items-center justify-content-center gif-phone">
+                    <div class="animate-element delay5 fadeInLeft d-flex justify-content-center">
+                      <img src="img/animations/give-access.gif" alt="phone" class="phone-photo-without-animation gif-photo" style="position: absolute;">
+                      <img src="img/phone-home-1.png" alt="phone" class="phone-photo-without-animation">
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
 
-            <!-- ---------------- HIDE --------------- -->
-            <!-- <div class="carousel-project-personal a-carousel-projects owl-carousel owl-theme">
-              <div class="carousel-project-item">
-                  <div class="container my-5">
-                    <div class="animate-element delay5 fadeInDown">
-                      <div class="row d-flex justify-content-center">
-                        <div class="col-10">
-                          <div class="card-testimonials">
-                              <div class="d-none show-photo-testimonials">
-                                <div class="d-flex align-items-center justify-content-center mb-2">
-                                  <img src="img/teacher-profile-1.jpg" alt="" class="img-testimonials">
-                                </div>
-                                <p class="mb-0 text-center" style="white-space: nowrap;">Teacher</p>
-                                <small class="d-flex justify-content-center" style="white-space: nowrap; color: #999999">Chicago, US</small>
-                                <hr>
-                              </div>
-                              <div class="d-flex align-items-center justify-content-center">
-                                <div class="d-flex align-items-center">
-                                  <span class="slide-descr-testimonials-mark mr-3 d-none d-md-block d-lg-block d-xl-block">“</span>
-                                  <div class="slide-descr-testimonials">“OMG TeeRead would be a complete game changer!”​</div>
-                                </div>
-                                <div class="ml-4 d-none d-md-block d-lg-block d-xl-block">
-                                  <div class=" d-flex align-items-center ">
-                                    <img src="img/teacher-profile-1.jpg" alt="" class="img-testimonials">
-                                    <div class="ml-4">
-                                      <div class="d-flex align-items-center">
-                                        <div style="border-top: 2px solid rgb(145, 145, 145); width: 15px;margin-right: 5px;"></div>
-                                        <div>
-                                          <p class="mb-0" style="white-space: nowrap;">Teacher</p>
-                                          <small class="color: #999999" style="white-space: nowrap;">Chicago, US</small>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                          </div>
-                        </div>
+          <!-- SECTION-5 -->
+          <div class="section pp-scrollable slide-personal-services">
+            <div class="slide-container">
+              <!-- circle-orange -->
+              <div class="slide-bg animate-element delay5 fadeInRight">
+                <img src="img/ring-orange.png" alt="" class="slide-photo slide-circle3">
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-5 d-flex align-items-center">
+                    <div>
+                      <small>Step 5</small>
+                      <h3 class="slide-title-info animate-element delay5 fadeInDown orange">Group your students and assign homework​</h3>
+                      <p class="slide-descr animate-element delay5 fadeInUp mb-5"><b>Group your students according to different metrics and assign reading practice or more TeeRead assessments!</b></p>
+                      
+                      <div class="row">
+                        <ul class="col-12 col-lg-8" style="list-style-type: none;">
+                          <li class="animate-element delay6 fadeInUp d-flex mb-3">
+                            <div class="loader">
+                              <div class="v-bar step-5-1"></div>
+                            </div>
+                            <div class="ml-3">
+                              <b>Group your students ​</b>
+                              <p class="mb-0">Group your students according to metrics such as WPM, WCPM, etc​</p>
+                            </div>
+                          </li>
+                          <li class="animate-element delay7 fadeInUp d-flex mb-3">
+                            <div class="loader">
+                              <div class="v-bar step-5-2"></div>
+                            </div>
+                            <div class="ml-3">
+                              <b>Follow each group’s progress</b>
+                              <p class="mb-0">You’ll get access to reports per group as well</p>
+                            </div>
+                          </li>
+                          <li class="animate-element delay8 fadeInUp d-flex mb-3">
+                            <div class="loader">
+                              <div class="v-bar step-5-3"></div>
+                            </div>
+                            <div class="ml-3">
+                              <b>Assign reading practice​</b>
+                              <p class="mb-0">Assign books individually, per group, or to the entire class. Start your own book club!</p>
+                            </div>
+                          </li>
+                          <li class="animate-element delay8 fadeInUp d-flex mb-3">
+                            <div class="loader">
+                              <div class="v-bar step-5-4"></div>
+                            </div>
+                            <div class="ml-3">
+                              <b>Assign additional TeeRead assessments​</b>
+                              <p class="mb-0">If you see fit, you can assign additional TeeRead assessments individually, per group or to the entire class​</p>
+                            </div>
+                          </li>
+                        </ul>
                       </div>
                     </div>
+                    
                   </div>
-              </div>
-              <div class="carousel-project-item">
-                <div class="container my-5">
-                  <div class="animate-element delay5 fadeInDown">
-                    <div class="row d-flex justify-content-center">
-                      <div class="col-10">
-                        <div class="card-testimonials">
-                            <div class="d-none show-photo-testimonials">
-                              <div class="d-flex align-items-center justify-content-center mb-2">
-                                <img src="img/teacher-profile-1.jpg" alt="" class="img-testimonials">
-                              </div>
-                              <p class="mb-0 text-center" style="white-space: nowrap;">Teacher</p>
-                              <small class="d-flex justify-content-center" style="white-space: nowrap; color: #999999">Chicago, US</small>
-                              <hr>
-                            </div>
-                            <div class="d-flex align-items-center justify-content-center">
-                              <div class="d-flex align-items-center">
-                                <span class="slide-descr-testimonials-mark mr-3 d-none d-md-block d-lg-block d-xl-block">“</span>
-                                <div class="slide-descr-testimonials">“OMG TeeRead would be a complete game changer!”​</div>
-                              </div>
-                              <div class="ml-4 d-none d-md-block d-lg-block d-xl-block">
-                                <div class=" d-flex align-items-center ">
-                                  <img src="img/teacher-profile-1.jpg" alt="" class="img-testimonials">
-                                  <div class="ml-4">
-                                    <div class="d-flex align-items-center">
-                                      <div style="border-top: 2px solid rgb(145, 145, 145); width: 15px;margin-right: 5px;"></div>
-                                      <div>
-                                        <p class="mb-0" style="white-space: nowrap;">Teacher</p>
-                                        <small class="color: #999999" style="white-space: nowrap;">Chicago, US</small>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                        </div>
-                      </div>
+                  <div class="col-md-6 d-flex align-items-center justify-content-center gif-phone">
+                    <div class="animate-element delay5 fadeInLeft d-flex justify-content-center">
+                      <img src="img/animations/assign-homeworkk.gif" alt="phone" class="phone-photo-without-animation gif-photo" style="position: absolute;">
+                      <img src="img/phone-home-1.png" alt="phone" class="phone-photo-without-animation">
+                      
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="carousel-project-item">
-                <div class="container my-5">
-                  <div class="animate-element delay5 fadeInDown">
-                    <div class="row d-flex justify-content-center">
-                      <div class="col-10">
-                        <div class="card-testimonials">
-                            <div class="d-none show-photo-testimonials">
-                              <div class="d-flex align-items-center justify-content-center mb-2">
-                                <img src="img/teacher-profile-1.jpg" alt="" class="img-testimonials">
-                              </div>
-                              <p class="mb-0 text-center" style="white-space: nowrap;">Teacher</p>
-                              <small class="d-flex justify-content-center" style="white-space: nowrap; color: #999999">Chicago, US</small>
-                              <hr>
-                            </div>
-                            <div class="d-flex align-items-center justify-content-center">
-                              <div class="d-flex align-items-center">
-                                <span class="slide-descr-testimonials-mark mr-3 d-none d-md-block d-lg-block d-xl-block">“</span>
-                                <div class="slide-descr-testimonials">“OMG TeeRead would be a complete game changer!”​</div>
-                              </div>
-                              <div class="ml-4 d-none d-md-block d-lg-block d-xl-block">
-                                <div class=" d-flex align-items-center ">
-                                  <img src="img/teacher-profile-1.jpg" alt="" class="img-testimonials">
-                                  <div class="ml-4">
-                                    <div class="d-flex align-items-center">
-                                      <div style="border-top: 2px solid rgb(145, 145, 145); width: 15px;margin-right: 5px;"></div>
-                                      <div>
-                                        <p class="mb-0" style="white-space: nowrap;">Teacher</p>
-                                        <small class="color: #999999" style="white-space: nowrap;">Chicago, US</small>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                        </div>
-                      </div>
+            </div>
+          </div>
+
+          <!-- SECTION-6 -->
+          <div class="section pp-scrollable slide-personal-services">
+            <div class="slide-container">
+              <!-- circle-orange -->
+              <div class="slide-bg animate-element delay5 fadeInLeft">
+                <img src="img/ring-orange.png" alt="" class="slide-photo slide-circle4">
+                <img src="img/medium-ring-blue.png" alt="" class="slide-photo slide-circle5">
+                <img src="img/students-childrens.png" alt="" class="slide-photo slide-photo1">
+              </div>
+              <div class="container" style="margin-bottom: 20px; margin-top: 58px;">
+                <div class="row">
+                  <div class="col-2 col-md-5 col-sm-4 col-lg-6">
+                  </div>
+                  <div class="col-10 col-sm-8 col-md-6 col-lg-5 col-xl-4 d-flex align-items-center card-custom-padding">
+                    <div class="card-custom-white animate-element delay5 fadeInUp">
+                      <p class="slide-descr animate-element delay5 fadeInUp mb-5 black"><b>Let’s take our kiddos’ literacy to the next level! Because reading gives them the chance to change the world</b></p>
+                      <button class="btn btn-primary" data-toggle="modal" data-target="#send-request">join the waitlist</button>
                     </div>
                   </div>
                 </div>
               </div>
-            </div> -->
-            <!-- ---------------- /HIDE --------------- -->
+            </div>
 
             <footer class="flex-container footer pt-0">
               <!-- ---------------- HIDE --------------- -->
@@ -626,7 +599,7 @@
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/pagepiling.index.js"></script>
+    <script src="js/pagepiling.how.it.works.js"></script>
 
   </body>
 </html>
