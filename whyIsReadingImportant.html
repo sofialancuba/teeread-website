@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
+    <meta name="description" content="TeeRead - Assess your student’s reading automatically">
+    <meta name="author" content="Tixcode">
+
+    <title>TeeRead</title>
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/owl.theme.default.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/jquery.pagepiling.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="css/LineIcons.css" rel="stylesheet">
+    <link href="css/verticalLoaders.css" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/whyIsReadingImportantStyle.css" rel="stylesheet">
+    <link href="css/pagepiling.how.it.works.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/site.webmanifest">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#222222">
+    <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+  </head>
+
+  <body class="body-copyright-light">
+    <div class="preloader">
+      <div class="three-bounce">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <header id="header" class="header header-fixed">
+        <div class="header-bg"></div>
+
+        <div class="container clearfix">
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+              <!-- LOGO -->
+              <div class="brand">
+                <a href="index.html">
+                  <img src="img/logo/logo-teeread.png" alt="logo teeread" width="50px">
+                </a>
+              </div>
+  
+              <!-- MENU HEADER -->
+              <!-- ---------------- HIDE --------------- -->
+              <div class="header-content d-none d-md-block">
+                <nav class="menu-header">
+                  <ul class="d-flex">
+                      <li><a href="index.html">TEEREAD</a></li>
+                      <li><a href="howItWorks.html">HOW IT WORKS</a></li>
+                      <li data-menuanchor="Resources"><a href="whyIsReadingImportant.html">WHY READING?</a></li>
+                      <!-- <li data-menuanchor="About"><a href="#About">ABOUT</a></li> -->
+                    </ul>
+                </nav>
+              </div>
+              <!-- ---------------- /HIDE --------------- -->
+            </div>
+
+            <div class="d-flex align-items-center justify-content-end">
+              <!-- ---------------- HIDE --------------- -->
+              <!-- <div class="d-none d-md-block"> -->
+              <!-- ---------------- /HIDE --------------- -->
+                <div class="d-flex align-items-center">
+                  <!-- ---------------- HIDE --------------- -->
+                  <!-- <div class="btn-sign-in mr-4" data-toggle="modal" data-target="#send-request">Sign in</div> -->
+                  <!-- ---------------- /HIDE --------------- -->
+                  <button class="btn btn-primary" data-toggle="modal" data-target="#send-request">join the waitlist</button>
+                </div>
+              <!-- ---------------- HIDE --------------- -->
+              <!-- </div> -->
+              <!-- ---------------- /HIDE --------------- -->
+              
+            
+              <!-- MENU NAV TOGGLE -->
+              <button class="nav-toggle-btn a-nav-toggle d-md-none ml-4">
+                <span class="nav-toggle">
+                  <span class="stick stick-1"></span>
+                  <span class="stick stick-2"></span>
+                </span>
+              </button>
+            </div>
+
+            
+          </div>
+        </div>
+         
+
+        <div class="hide-menu a-nav-toggle"></div>
+
+        <div class="menu">
+          <!-- <div class="menu-lang">
+            <a href="#" class="menu-lang-item active">Eng</a>
+            <a href="#" class="menu-lang-item">fra</a>
+            <a href="#" class="menu-lang-item">ger</a>
+          </div> -->
+
+          <nav class="menu-main" id="accordion">
+            <ul id="menuMain">
+                <li><a href="index.html">Teeread</a></li>
+                <li><a href="howItWorks.html">How it works</a></li>
+                <li class="active"><a href="whyIsReadingImportant.html">Why reading?</a></li>
+              </ul>
+          </nav>
+
+          <!-- <div class="menu-footer">
+              <ul class="social social-rounded">
+                <li><a href="#"><i class="lni lni-twitter-filled"></i></a></li>
+                <li><a href="#"><i class="lni lni-behance-original"></i></a></li>
+                <li><a href="#"><i class="lni lni-instagram-original"></i></a></li>
+              </ul>
+            <div class="menu-copyright">&copy; TeeRead 2020<br /> All Rights Reserved</div>
+          </div> -->
+        </div>
+      </header>
+
+
+      <div id="content" class="content">
+        <div class="homepage-personal a-pagepiling">
+
+          <!-- SECTION-1 -->
+          <div class="section pp-scrollable slide-dark slide-dark-footer">
+            <div class="slide-container pb-0">
+              <!-- <div class="slide-bg animate-element delay5 fadeInLeft">
+                <img src="img/triangle-blue.png" alt="" class="slide-photo slide-triangle-blue-how-it-works">
+              </div> -->
+              <div class="container">
+                <div class="row d-flex align-items-center justify-content-center">
+                  <div class="col-12 col-md-12 col-lg-6 z-index-1">
+                    <h1 class="slide-title-how-it-works animate-element delay4 fadeInDown color-blue"><span class="blurry-text-1">This</span> is <span class="blurry-text-2">how</span> it <span class="blurry-text-1">feels</span> to not read <span class="blurry-text-2">proficiently​</span></h1>
+                    <div class="animate-element delay6 fadeInUp">
+                      <div class="slide-descr slide-descr-intro md-text-left" style="color: #000;"><b>We read to learn,</b> making reading the steppingstone for our children to have a fighting chance at becoming who they want to be.</div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-8 col-md-8 col-xl-6 col-lg-6 mt-4 mt-lg-0 mt-xl-0">
+                    <div class="animate-element delay5 fadeInRight d-flex justify-content-center gif-phone gif-phone1 pb-0">
+                      <img src="img/blurred-book.png" alt="book" class="blurred-book">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- cards -->
+            
+          </div>
+
+          <!-- SECTION-2 -->
+          <div class="section pp-scrollable slide-personal-services">
+            <div class="">
+              <div class="container-flex section-red">
+                <div class="container">
+                  <div class="row award-list d-flex justify-content-center">
+                    <div class="col-sm-12 col-md-6 col-lg-6 animate-element delay5 fadeInUp my-4">
+                      <div class="slide-descr-intro md-text-left second-superfont">Yet</div>
+                      <span class="super-font">+60<span class="super-font-percent">%</span></span>
+                      <div class="slide-descr-intro md-text-left second-superfont">of students in the US</div>
+                      <div class="second-superfont-white">DON’T READ PROFICIENTLY</div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 animate-element delay6 fadeInUp my-4 d-flex flex-column justify-content-center">
+                      <div class="smiles-display-desktop">
+                        <div class="d-flex justify-content-center">
+                          <img class="img-smiles" src="img/sad.png">
+                          <img class="img-smiles" src="img/sad.png">
+                          <img class="img-smiles" src="img/sad.png">
+                          <img class="img-smiles" src="img/smile.png">
+                          <img class="img-smiles" src="img/smile.png">
+                        </div>
+                        <div class="d-flex justify-content-center mt-25">
+                          <img class="img-smiles" src="img/sad.png">
+                          <img class="img-smiles" src="img/sad.png">
+                          <img class="img-smiles" src="img/sad.png">
+                          <img class="img-smiles" src="img/smile.png">
+                          <img class="img-smiles" src="img/smile.png">
+                        </div>
+                      </div>
+                      <div class="smiles-display-mobile">
+                        <div class="d-flex justify-content-center">
+                          <img class="img-smiles" src="img/sad.png">
+                          <img class="img-smiles" src="img/sad.png">
+                        </div>
+                        <div class="d-flex justify-content-center mt-25">
+                          <img class="img-smiles" src="img/sad.png">
+                          <img class="img-smiles" src="img/sad.png">
+                        </div>
+                        <div class="d-flex justify-content-center mt-25">
+                          <img class="img-smiles" src="img/sad.png">
+                          <img class="img-smiles" src="img/sad.png">
+                        </div>
+                        <div class="d-flex justify-content-center mt-25">
+                          <img class="img-smiles" src="img/smile.png">
+                          <img class="img-smiles" src="img/smile.png">
+                        </div>
+                        <div class="d-flex justify-content-center mt-25">
+                          <img class="img-smiles" src="img/smile.png">
+                          <img class="img-smiles" src="img/smile.png">
+                        </div>
+                      </div>
+                      
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SECTION-2 -->
+          <div class="section pp-scrollable slide-personal-services">
+            <div class="slide-container">
+              <div class="container">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-12 mb-4">
+                    <h3 class="slide-title-info animate-element delay5 fadeInDown red text-center mt-0">This has serious effects on our kids…</h3>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column align-items-center">
+                      <div class="col-12 col-sm-6 col-md-12 col-lg-7 col-xl-7 d-flex flex-column align-items-center">
+                        <div class="btn-red-border d-flex justify-content-center animate-element delay10 fadeInDown"><span>Frustration</span></div>
+                        <div class="addition-text red my-4 animate-element delay16 fadeIn">+</div>
+                        <div class="btn-red-border d-flex justify-content-center animate-element delay22 fadeInDown"><span>Insecurity</span></div>
+                        <div class="addition-text red my-4 animate-element delay28 fadeIn">=</div>
+                        <div class="btn-red-border d-flex justify-content-center animate-element delay34 fadeInDown"><span>Disengagement</span></div>
+                        <img class="addition-text-arrow-down my-4 animate-element delay40 fadeIn" src="img/arrow-down.png" alt="arrow-down">
+                        <div class="btn-red-bg btn-red-bg-width d-flex justify-content-center animate-element delay46 fadeInDown"><span>Drop out of school</span></div>
+                      </div>
+                  </div>
+                  
+                  <div class="col-12 col-md-6 col-lg-6 col-kl-6 d-flex justify-content-center align-items-center animate-element delay5 fadeInRight">
+                    <img class="img-frustrated-kid" src="img/frustrated-kid.png">
+                  </div>
+                  <div class="col-12 col-lg-8 col-xl-8 d-flex align-items-end justify-content-center container-4x">
+                    <img src="img/4x.png" alt="4x" class="img-4x animate-element delay6 fadeInLeft d-none d-md-block d-lg-block d-xl-block">
+                    
+                    <div class="btn-red-bg animate-element delay6 fadeInRight d-none d-md-block d-lg-block d-xl-block">
+                      <div class="black text-center animate-element delay7 fadeInUp">Kids that are not proficient readers <br> by 3rd grade are 4x more likely to</div>
+                      <div class="super-font-white text-center animate-element delay8 fadeInUp">DROP OUT OF SCHOOL</div>
+                    </div>
+                    
+                  </div>
+                  <div class="col-12 d-flex justify-content-center">
+                    <img src="img/4x.png" alt="4x" class="img-4x animate-element delay6 fadeInLeft d-md-none d-lg-none d-xl-none">
+                  </div>
+                  <div class="col-12 my-5">
+                    <div class="btn-red-bg animate-element delay6 fadeInRight d-md-none d-lg-none d-xl-none">
+                      <div class="black text-center animate-element delay7 fadeInUp">Kids that are not proficient readers by 3rd grade are 4x more likely to</div>
+                      <div class="super-font-white text-center animate-element delay8 fadeInUp">DROP OUT OF SCHOOL</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SECTION-3 -->
+          <div class="section pp-scrollable slide-personal-services">
+            <div class="slide-container">
+              <!-- circle-orange -->
+              <div class="slide-bg animate-element delay5 fadeInRight">
+                <img src="img/ring-green.png" alt="" class="slide-photo slide-circle6">
+                <img src="img/triangle-yellow-subs.png" alt="" class="slide-photo slide-triangle">
+              </div>
+              <div class="container">
+                <div class="row award-list d-flex justify-content-center my-5">
+                  <div class="col-12 mb-4">
+                    <h3 class="slide-title-info animate-element delay5 fadeInDown violet text-center">Reading proficiently means students...</h3>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-3 animate-element delay5 fadeInUp my-5">
+                    <div class="award-item-white">
+                        <div class="award-item-logo"><img src="img/checklist-violet.png" alt="" /></div>
+                        <div class="award-item-descr slide-descr violet">Identify words accurately and fluently</div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-3 animate-element delay6 fadeInUp my-5">
+                    <div class="award-item-white">
+                        <div class="award-item-logo"><img src="img/open-book-violet.png" alt="" /></div>
+                        <div class="award-item-descr slide-descr violet">Understand the text</div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-3 animate-element delay7 fadeInUp my-5">
+                    <div class="award-item-white">
+                        <div class="award-item-logo"><img src="img/knowledge-violet.png" alt="" /></div>
+                        <div class="award-item-descr slide-descr violet">Learn from the text</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SECTION-4 -->
+          <div class="section pp-scrollable slide-personal-services">
+            <div class="slide-container">
+              <!-- circle-orange -->
+              <div class="slide-bg animate-element delay16 fadeZooming">
+                <!-- <img src="img/background/tiny-triangle-green.png" alt="" class="slide-photo slide-tiny-1">
+                <img src="img/background/tiny-triangle-yellow.png" alt="" class="slide-photo slide-tiny-2">
+                <img src="img/background/tiny-pill-yellow.png" alt="" class="slide-photo slide-tiny-3">
+                <img src="img/background/tiny-ring-violet.png" alt="" class="slide-photo slide-tiny-4"> -->
+              </div>
+              <div class="container container-pb-custom">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-12 mb-4">
+                    <h3 class="slide-title-info animate-element delay5 fadeInDown violet text-center mt-0">Reading also helps children develop…</h3>
+                  </div>
+                  <div class="col-12 col-md-10 col-lg-8 col-xl-6 d-flex justify-content-center mb-4">
+                    <div class="animate-element delay8 fadeInDown  d-none d-md-block d-lg-block d-xl-block">
+                      <div class="d-flex justify-content-center">
+                        <img class="child-dreaming" src="img/child-dreaming.png" alt="child-dreaming">
+                      </div>
+                    </div>
+
+                    <div class="animate-element delay8 fadeInDown d-md-none d-lg-none d-xl-none">
+                      <div class="d-flex justify-content-center">
+                        <img class="child-dreaming-mobile" src="img/child-dreaming-mobile.png" alt="child-dreaming">
+                      </div>
+                    </div>
+
+                    
+                    <div class="circle-imagination animate-element delay8 fadeInLeft">
+                      <div class="circle-imagination-animation">
+                        <div>
+                          <div>Imagination</div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="circle-critical animate-element delay9 fadeInLeft">
+                      <div class="circle-critical-animation">
+                        <div>
+                          <div>
+                            Critical
+                          </div>
+                          <div>
+                            thinking
+                          </div>
+                          <div>
+                            skills
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="circle-world animate-element delay10 fadeInLeft">
+                      <div class="circle-world-animation">
+                        <div>
+                          <div>World view</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="circle-empathy animate-element delay8 fadeInRight">
+                      <div class="circle-empathy-animation">
+                        <div>
+                          <div>Empathy</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="circle-language animate-element delay9 fadeInRight">
+                      <div class="circle-language-animation">
+                        <div>
+                          <div>
+                            Language
+                          </div>
+                          <div>
+                            and academic
+                          </div>
+                          <div>
+                            performance
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="circle-concentration animate-element delay10 fadeInRight">
+                      <div class="circle-concentration-animation">
+                        <div>
+                          <div>
+                            Concentration
+                          </div>
+                          <div>
+                            & memory
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <img src="img/background/tiny-triangle-green.png" alt="" class="slide-photo slide-tiny-1"> -->
+                    <!-- <img src="img/background/tiny-triangle-yellow.png" alt="" class="slide-photo slide-tiny-2">
+                    <img src="img/background/tiny-pill-yellow.png" alt="" class="slide-photo slide-tiny-3">
+                    <img src="img/background/tiny-ring-violet.png" alt="" class="slide-photo slide-tiny-4"> -->
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <!-- SECTION-5 -->
+          <div class="section pp-scrollable slide-personal-services">
+            <div class="slide-container">
+              <!-- circle-orange -->
+              <div class="slide-bg animate-element delay5 fadeInRight">
+                <img src="img/triangle-orange-subs.png" alt="" class="slide-photo slide-triangle1">
+                <img src="img/ring-violet.png" alt="" class="slide-photo slide-circle7">
+              </div>
+              <div class="container">
+                <div class="row award-list d-flex justify-content-center">
+                  <div class="col-12 d-flex justify-content-center animate-element delay4 fadeInDown">
+                    <div class="col-md-8 col-lg-5 col-xl-5 card-green-bg d-flex flex-column align-items-center">
+                      <img class="logo-teeread-white mb-4" src="img/logo/logo-teeread-white.png" alt="logo teeread white">
+                      <div class="text-center">
+                        We can make our literacy crisis a thing of the past by supporting our teachers and parents
+                      </div>
+                     
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-3 animate-element delay5 fadeInUp my-5">
+                    <div class="award-item-white">
+                        <div class="award-item-logo"><img src="img/hero-green.png" alt="" /></div>
+                        <div class="award-item-descr slide-descr slide-descr-12 green">Making assessments easy for teachers and students</div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-3 animate-element delay6 fadeInUp my-5">
+                    <div class="award-item-white">
+                        <div class="award-item-logo"><img src="img/student-green.png" alt="" /></div>
+                        <div class="award-item-descr slide-descr slide-descr-12 green">Enabeling personalized instruction</div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-3 animate-element delay7 fadeInUp my-5">
+                    <div class="award-item-white">
+                        <div class="award-item-logo"><img src="img/stacked-books-green.png" alt="" /></div>
+                        <div class="award-item-descr slide-descr slide-descr-12 green">Giving students access to books at the right level</div>
+                    </div>
+                  </div>
+                  <div class="col-12 d-none d-md-block d-lg-block d-xl-block">
+                    <div class="d-flex justify-content-center">
+                      <div class="col-12 col-md-9 col-lg-8 col-xl-7 my-5 d-flex flex-column justify-content-center p-0">
+                        <img class="book-readers d-none d-md-block d-lg-block d-xl-block" src="img/team-teeread.png" alt="team teeread">
+                        <div class="content-team-teeread">
+                          <img class="logo-teeread-white logo-teeread-white-mobile mb-3" src="img/logo/logo-teeread-white.png" alt="logo teeread white">
+                          <div class="text-center text-content-team-teeread mb-4">
+                            Let’s make the literacy <br> crisis a problem of the past!
+                          </div>
+                          <button class="btn btn-primary animate-element delay8 fadeInUp" data-toggle="modal" data-target="#send-request" style="border-color: #fff;
+                          border: 3px solid;">Join the waitlist</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex-container d-md-none d-lg-none d-xl-none">
+              <div class="d-flex justify-content-center">
+                <img class="book-readers" src="img/team-teeread-mobile.png" alt="team teeread">
+              </div>
+              
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="content-team-teeread ">
+                      <img class="logo-teeread-white logo-teeread-white-mobile mb-3" src="img/logo/logo-teeread-white.png" alt="logo teeread white">
+                      <div class="text-center text-content-team-teeread mb-4">
+                        Let’s make the literacy <br> crisis a problem of the past!
+                      </div>
+                      <button class="btn btn-primary animate-element delay8 fadeInUp" data-toggle="modal" data-target="#send-request" style="border-color: #fff;
+                      border: 3px solid;">Join the waitlist</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="flex-container" style="width: 100%; height: auto; padding: 1.2rem 0; background-color: #6979ff;">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 d-flex justify-content-center">
+                    <div class="col-4">
+                      <h3 class="section-bar-title-why-is-reading-important animate-element delay6 fadeInUp mb-0">Let’s make the literacy crisis a thing of the past!</h3>
+                    </div>
+                  </div>
+                  <div class="col-12 mt-4">
+                    <div class="d-flex justify-content-center">
+                      <button class="btn btn-primary animate-element delay8 fadeInUp" data-toggle="modal" data-target="#send-request">Join the waitlist</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <footer class="flex-container footer pt-0">
+              <!-- ---------------- HIDE --------------- -->
+              <!-- <div class="container mb-5">
+
+                <div class="row">
+                  <div class="col-md-12 col-lg-8">
+                    <div class="row">
+                      <div class="col-6 col-sm-3">
+                        <ul class="menu-footer">
+                          <li class="title-menu-footer"><a href="#">Product</a></li>
+                          <li><a href="howItWorks.html">How it works?</a></li>
+                          <li><a href="#">Why is reading important?</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-6 col-sm-3">
+                        <ul class="menu-footer">
+                          <li class="title-menu-footer"><a href="#">Resource</a></li>
+                          <li><a href="#">Learn Center</a></li>
+                          <li><a href="#">Support</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-6 col-sm-3">
+                        <ul class="menu-footer">
+                          <li class="title-menu-footer"><a href="#">About</a></li>
+                          <li><a href="#">Our Story</a></li>
+                          <li><a href="#">Blog</a></li>
+                          <li><a href="#">Email us</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-6 col-sm-3">
+                        <ul class="menu-footer">
+                          <li class="title-menu-footer"><a href="#">Get Started</a></li>
+                          <li><a href="#">Sign In</a></li>
+                          <li><a href="#">Sing Up for the waitlist</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="col-lg-4 col-md-12 footer-suscribe-newsletter">
+                    <p class="title-suscribe-newsletter">Subscribe to our newsletter!</p>
+                    <p class="descr-suscribe-newsletter">Get TeeRead resources, curated content, and activities inspiration for your classroom right into your inbox. Be the first to learn the news about TeeRead launch and product updates.</p>
+                    <form action="" class="d-flex">
+                      <input type="text" name="email" class="form-control mr-3" placeholder="Your email">
+                      <button type="submit" class="btn btn-white">Suscribe</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="border-top-white"></div> -->
+              <!-- ---------------- /HIDE --------------- -->
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 my-4">
+                    <div class="row d-flex align-items-center">
+                      <div class="col-6">
+                        <small class="copyright-white">Copyright © 2021. All rights reserved.</small>
+                      </div>
+                      <div class="col-6">
+                        <ul class="social social-rounded d-flex justify-content-end">
+                          <li><a href="https://www.youtube.com/channel/UCop2B0gRpACkFYAWOAhelCw" target="_link"><i class="lni lni-youtube"></i></a></li>
+                          <li class="mr-0"><a href="https://www.instagram.com/teeread_ok/" target="_link"><i class="lni lni-instagram-original"></i></a></li>
+                          <!-- ---------------- HIDE --------------- -->
+                          <!-- <li><a href="#" target="_link"><i class="lni lni-facebook-filled"></i></a></li>
+                          <li class="mr-0"><a href="#" target="_link"><i class="lni lni-twitter-filled"></i></a></li> -->
+                          <!-- ---------------- /HIDE --------------- -->
+                        </ul>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    Modal
+    <div class="modal fade" id="send-request">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title">Join the waitlist</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <i class="lni lni-close"></i>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="slide-descr">Sign up and be the first to try TeeRead!</p>
+            <!-- Begin Mailchimp Signup Form -->
+            <div id="mc_embed_signup">
+              <form action="https://teeread.us10.list-manage.com/subscribe/post?u=e3be2f84ce84baafe79715602&amp;id=d62dc9aa78" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                  <div class="row">
+                    <div class="mc-field-group col-sm-12">
+                      <label for="mce-EMAIL">Email Address (required)</label>
+                      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                    </div>
+                    <div class="mc-field-group col-md-6 col-sm-12">
+                      <label for="mce-NAME">Name </label>
+                      <input type="text" value="" name="NAME" class="" id="mce-NAME">
+                    </div>
+                    <div class="mc-field-group col-md-6 col-sm-12">
+                      <label for="mce-SCHOOL">School Name </label>
+                      <input type="text" value="" name="SCHOOL" class="" id="mce-SCHOOL">
+                    </div>
+                  </div>
+                  <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                  </div>    
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_e3be2f84ce84baafe79715602_d62dc9aa78" tabindex="-1" value="">
+                  </div>
+                  <div class="clear center-md">
+                    <input type="submit" value="Join the waitlist!" name="subscribe" id="mc-embedded-subscribe" class="button">
+                  </div>
+                </div>
+              </form>
+            </div>
+            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='NAME';ftypes[1]='text';fnames[2]='SCHOOL';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+            <!--End mc_embed_signup-->
+            <!-- <form class="form-request a-ajax-form">
+              <div class="form-group form-group-material a-form-group">
+                <input type="text" name="name" class="form-control" placeholder="Name">
+              </div>
+              <div class="form-group form-group-material a-form-group">
+                <input type="email" name="email" class="form-control" required="" placeholder="Email Address (required)">
+              </div>
+              <div class="form-group form-group-material a-form-group">
+                <input type="text" name="school-name" class="form-control" placeholder="School Name">
+              </div>
+              <div class="message text-success success-message">Your message is successfully sent...</div>
+              <div class="message text-danger error-message">Sorry something went wrong</div>
+              <div class="control-btn text-right">
+                <button type="submit" class="btn btn-success">Submit</button>
+              </div>
+            </form> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.pagepiling.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/pagepiling.how.it.works.js"></script>
+
+  </body>
+</html>
