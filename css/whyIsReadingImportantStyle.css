@@ -76,7 +76,8 @@
 .second-superfont {
   font-size: 5vmin;
   line-height: normal;
-  color: #000;
+  color: #820a0a;
+  font-weight: 600;
 }
 
 .second-superfont-white {
