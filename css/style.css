@@ -1956,6 +1956,8 @@ label.error {
     right: 0 !important;
     left: 0 !important;
     margin: 0 auto;
+    height: 30.3125rem !important;
+    top: 10rem !important;
   }
   .slide-descr-center-mobile {
     text-align: center;
@@ -1964,10 +1966,10 @@ label.error {
 
 @media (max-width: 532px) {
   .slide-photo1 {
-    height: 15.3125rem !important;
+    height: 26.3125rem !important;
   }
   .slide-circle4 {
-    right: 27.0625rem;
+    right: 40.0625rem;
   }
 }
 
@@ -1980,10 +1982,6 @@ label.error {
 @media (max-width: 404px) {
   .slide-photo1 {
     height: 22.3125rem !important;
-  }
-  .slide-circle4 {
-    right: 23.0625rem;
-    top: 9rem;
   }
 }
 
