@@ -42,7 +42,7 @@
 @media (max-width: 991px) {
   .blurred-book {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 }
 
@@ -934,8 +934,11 @@
   }
   .img-smiles {
     width: 21%;
-    margin-left: 18px;
-    margin-right: 18px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .mt-25 {
+    margin-top: 2rem;
   }
   .section-red {
     transform: translateY(22%);
