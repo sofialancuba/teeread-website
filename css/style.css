@@ -2013,6 +2013,13 @@ label.error {
   animation: ring_animation 15s linear infinite;
 }
 
+.teacher-intro {
+  width: 80%;
+  height: auto;
+  -webkit-animation: ring_animation 15s linear infinite;
+  animation: ring_animation 15s linear infinite;
+}
+
 @media (min-width: 768px) {
   .slide-teacher-intro {
     right: -1.9375rem !important;
