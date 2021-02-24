@@ -230,7 +230,7 @@
 
 .child-dreaming {
   width: 70%;
-  height: auto;
+  height: 100%;
   -webkit-animation: ring_animation 15s linear infinite;
   animation: ring_animation 15s linear infinite;
 }
@@ -1015,6 +1015,11 @@
   }
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .btn-red-border{
+    padding: 20px;
+  }
+}
 .content-team-teeread {
   position: absolute;
   display: flex;
@@ -1108,12 +1113,6 @@
     width: 46px !important;
   }
 }
-
-@media only screen and (-webkit-min-device-pixel-ratio:0) {
-  .avia-safari .child-dreaming {
-  height: 100%;
-  }
-  }
 
 .smiles-display-mobile {
   display: none;
