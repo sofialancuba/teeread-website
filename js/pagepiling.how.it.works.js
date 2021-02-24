@@ -12,7 +12,7 @@ if ($(".a-pagepiling").length) {
     navigation: {
       position: "right",
     },
-    onLeave: function () {
+    onLeave: function (index, nextIndex) {
       $(".header").removeClass("header-shadow");
       if ($(".pp-scrollable.active").scrollTop() > 0) {
         $(".header").addClass("header-shadow");
@@ -30,6 +30,50 @@ if ($(".a-pagepiling").length) {
         $("body").removeClass("body-bg-dark");
       }
       $(".a-carousel-projects").trigger("refresh.owl.carousel");
+
+      if (nextIndex == 2) {
+        $(".loader-bar-step1").addClass("step-2-1");
+        $(".loader-bar-step2").addClass("step-2-2");
+        $(".loader-bar-step3").addClass("step-2-3");
+      } else {
+        $(".loader-bar-step1").removeClass("step-2-1");
+        $(".loader-bar-step2").removeClass("step-2-2");
+        $(".loader-bar-step3").removeClass("step-2-3");
+      }
+
+      if (nextIndex == 3) {
+        $(".loader-bar-step1").addClass("step-3-1");
+        $(".loader-bar-step2").addClass("step-3-2");
+        $(".loader-bar-step3").addClass("step-3-3");
+        $(".loader-bar-step4").addClass("step-3-4");
+      } else {
+        $(".loader-bar-step1").removeClass("step-3-1");
+        $(".loader-bar-step2").removeClass("step-3-2");
+        $(".loader-bar-step3").removeClass("step-3-3");
+        $(".loader-bar-step4").removeClass("step-3-4");
+      }
+
+      if (nextIndex == 4) {
+        $(".loader-bar-step1").addClass("step-4-1");
+        $(".loader-bar-step2").addClass("step-4-2");
+        $(".loader-bar-step3").addClass("step-4-3");
+      } else {
+        $(".loader-bar-step1").removeClass("step-4-1");
+        $(".loader-bar-step2").removeClass("step-4-2");
+        $(".loader-bar-step3").removeClass("step-4-3");
+      }
+
+      if (nextIndex == 5) {
+        $(".loader-bar-step1").addClass("step-5-1");
+        $(".loader-bar-step2").addClass("step-5-2");
+        $(".loader-bar-step3").addClass("step-5-3");
+        $(".loader-bar-step4").addClass("step-5-4");
+      } else {
+        $(".loader-bar-step1").removeClass("step-5-1");
+        $(".loader-bar-step2").removeClass("step-5-2");
+        $(".loader-bar-step3").removeClass("step-5-3");
+        $(".loader-bar-step4").removeClass("step-5-4");
+      }
     },
   });
 }
