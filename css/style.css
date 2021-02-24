@@ -1305,7 +1305,7 @@ label.error {
 }
 
 .slide-title {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-size: 6vmin;
   font-family: "Nunito", sans-serif;
   font-weight: bold;
@@ -1451,7 +1451,7 @@ label.error {
 }
 
 .slide-btn {
-  margin-top: 4vmin;
+  margin-top: 3vmin;
 }
 
 .section:not(.active) .animate-element {
