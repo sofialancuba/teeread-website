@@ -1016,7 +1016,10 @@
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-  .btn-red-border{
+  .btn-red-border {
+    padding: 20px;
+  }
+  .btn-red-bg {
     padding: 20px;
   }
 }
