@@ -1020,7 +1020,7 @@
     padding: 20px;
   }
   .btn-red-bg {
-    padding: 20px;
+    padding: 20px !important;
   }
 }
 .content-team-teeread {
