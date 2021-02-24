@@ -1022,14 +1022,14 @@
   }
 }
 
-/* @media screen and (-webkit-min-device-pixel-ratio:0) {
-  .btn-red-border {
-    padding: 20px;
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .btn-red-border, .btn-red-bg {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
   }
-  .btn-red-bg {
-    padding: 20px;
-  }
-} */
+}
 
 .content-team-teeread {
   position: absolute;
