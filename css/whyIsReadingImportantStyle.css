@@ -1019,7 +1019,7 @@
   .btn-red-border {
     padding: 20px;
   }
-  .btn-red-bg {
+  .btn-red-bg .btn-red-bg-width{
     padding: 20px !important;
   }
 }
