@@ -1022,11 +1022,12 @@
   }
 }
 
-@media not all and (min-resolution:.001dpcm) {
+@media not all and (min-resolution: 0.001dpcm) {
   @media {
-    .btn-red-border, .btn-red-bg {
+    .btn-red-border,
+    .btn-red-bg {
       padding: 1.3rem;
-      }
+    }
   }
 }
 
@@ -1116,10 +1117,10 @@
   .content-team-teeread {
     bottom: 40px !important;
   }
-  .text-content-team-teeread{
+  .text-content-team-teeread {
     font-size: 16px !important;
   }
-  .logo-teeread-white-mobile{
+  .logo-teeread-white-mobile {
     width: 46px !important;
   }
 }
