@@ -1305,7 +1305,7 @@ label.error {
 }
 
 .slide-title {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: 6vmin;
   font-family: "Nunito", sans-serif;
   font-weight: bold;
@@ -1348,7 +1348,7 @@ label.error {
 }
 
 .slide-title-info {
-  font-size: 2.2rem;
+  font-size: 2.1rem;
   font-weight: bold;
   line-height: 1.35;
   letter-spacing: -0.035em;
@@ -1360,7 +1360,7 @@ label.error {
 
 .slide-descr {
   color: #999999;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   line-height: 1.5;
 }
 
@@ -1451,7 +1451,7 @@ label.error {
 }
 
 .slide-btn {
-  margin-top: 3vmin;
+  margin-top: 4vmin;
 }
 
 .section:not(.active) .animate-element {
@@ -2265,7 +2265,7 @@ label.error {
   background: #6979ff;
   height: 100%;
   border-radius: 1rem 1rem 1rem 1rem;
-  padding: 2.1875rem 0.5rem;
+  padding: 2.1875rem 1.2rem;
   box-shadow: 0px 27px 34px -11px rgba(0, 0, 0, 0.3);
   transition: all 0.5s;
   will-change: transform;
@@ -2275,7 +2275,7 @@ label.error {
   background: #35b0ff;
   height: 100%;
   border-radius: 1rem 1rem 1rem 1rem;
-  padding: 2.1875rem 0.5rem;
+  padding: 2.1875rem 1.2rem;
   box-shadow: 0px 27px 34px -11px rgba(0, 0, 0, 0.3);
   transition: all 0.5s;
   will-change: transform;
@@ -2285,7 +2285,7 @@ label.error {
   background: #21d19f;
   height: 100%;
   border-radius: 1rem 1rem 1rem 1rem;
-  padding: 2.1875rem 0.5rem;
+  padding: 2.1875rem 1.2rem;
   box-shadow: 0px 27px 34px -11px rgba(0, 0, 0, 0.3);
   transition: all 0.5s;
   will-change: transform;
