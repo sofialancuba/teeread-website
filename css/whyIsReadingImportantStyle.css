@@ -1022,9 +1022,11 @@
   }
 }
 
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
-  .btn-red-border, .btn-red-bg {
-    padding: 1.3rem;
+@media not all and (min-resolution:.001dpcm) {
+  @media {
+    .btn-red-border, .btn-red-bg {
+      padding: 1.3rem;
+      }
   }
 }
 
