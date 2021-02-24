@@ -7,7 +7,7 @@ if ($(".a-pagepiling").length) {
     scrollingSpeed: 280,
     menu: "#menu, #menuMain",
     sectionsColor: [],
-    anchors: ["Intro", "Assess", "Library", "Teacher"],
+    anchors: ["Intro", "Cards", "Assess", "Library", "Teacher"],
     loopTop: false,
     loopBottom: false,
     navigation: {

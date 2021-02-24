@@ -464,8 +464,16 @@
 }
 
 .book-readers {
-  width: 100%;
+  width: 80%;
+  margin: auto;
   height: 100%;
+}
+
+.footer-bg-mobile {
+  width: 100%;
+  height: 109px;
+  position: absolute;
+  background-color: #40d78f;
 }
 
 .section-bar-title-why-is-reading-important {
@@ -1025,6 +1033,16 @@
   font-family: "Monserrat", sans-serif;
 }
 
+.slide-container-header {
+  padding-top: 2.75rem !important;
+}
+
+@media (max-width: 767px) {
+  .book-readers {
+    width: 100%;
+  }
+}
+
 @media (max-width: 743px) {
   .book-readers {
     width: 105%;
@@ -1082,6 +1100,12 @@
 @media (max-width: 387px) {
   .content-team-teeread {
     bottom: 40px !important;
+  }
+  .text-content-team-teeread{
+    font-size: 16px !important;
+  }
+  .logo-teeread-white-mobile{
+    width: 46px !important;
   }
 }
 

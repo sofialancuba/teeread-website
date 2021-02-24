@@ -1348,15 +1348,19 @@ label.error {
 }
 
 .slide-title-info {
-  font-size: 2.1rem;
+  font-size: 2.5rem;
   font-weight: bold;
   line-height: 1.35;
   letter-spacing: -0.035em;
 }
 
+.step-style {
+  top: -20px;
+}
+
 .slide-descr {
   color: #999999;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   line-height: 1.5;
 }
 
@@ -1780,9 +1784,9 @@ label.error {
 
 .slide-circle2 {
   width: auto;
-  height: 41.3125rem;
-  right: -5.9375rem;
-  top: 20.518519%;
+  height: 60rem;
+  right: -7rem;
+  top: 15%;
   bottom: auto;
   left: auto !important;
   -webkit-animation: ring_animation 15s linear infinite;
@@ -2261,7 +2265,7 @@ label.error {
   background: #6979ff;
   height: 100%;
   border-radius: 1rem 1rem 1rem 1rem;
-  padding: 2.1875rem 2.5rem;
+  padding: 2.1875rem 0.5rem;
   box-shadow: 0px 27px 34px -11px rgba(0, 0, 0, 0.3);
   transition: all 0.5s;
   will-change: transform;
@@ -2271,7 +2275,7 @@ label.error {
   background: #35b0ff;
   height: 100%;
   border-radius: 1rem 1rem 1rem 1rem;
-  padding: 2.1875rem 2.5rem;
+  padding: 2.1875rem 0.5rem;
   box-shadow: 0px 27px 34px -11px rgba(0, 0, 0, 0.3);
   transition: all 0.5s;
   will-change: transform;
@@ -2281,7 +2285,7 @@ label.error {
   background: #21d19f;
   height: 100%;
   border-radius: 1rem 1rem 1rem 1rem;
-  padding: 2.1875rem 2.5rem;
+  padding: 2.1875rem 0.5rem;
   box-shadow: 0px 27px 34px -11px rgba(0, 0, 0, 0.3);
   transition: all 0.5s;
   will-change: transform;
@@ -2979,7 +2983,7 @@ ul.menu-footer > li.title-menu-footer {
 -------------------------------------------------------------------------------*/
 
 .slide-title-how-it-works {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: 8vmin;
   font-family: "Monserrat", sans-serif;
   font-weight: bold;
