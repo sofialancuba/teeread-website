@@ -25,6 +25,35 @@
   });
 
   /*-------------------------------------------------------------------------------
+	  Support Buttons
+	-------------------------------------------------------------------------------*/
+    $("#btn-second-class").on("click", function () {
+      $("#content-second").addClass("d-block")
+      $("#content-second").removeClass("d-none")
+      $("#content-first").removeClass("d-block")
+      $("#content-first").addClass("d-none")
+      $("#content-third").removeClass("d-block")
+      $("#content-third").addClass("d-none")
+    })
+
+    $("#btn-first-class").on("click", function () {
+      $("#content-first").addClass("d-block")
+      $("#content-first").removeClass("d-none")
+      $("#content-second").removeClass("d-block")
+      $("#content-second").addClass("d-none")
+      $("#content-third").removeClass("d-block")
+      $("#content-third").addClass("d-none")
+    })
+
+    $("#btn-third-class").on("click", function () {
+      $("#content-third").removeClass("d-none")
+      $("#content-third").addClass("d-block")
+      $("#content-first").addClass("d-none")
+      $("#content-first").removeClass("d-block")
+      $("#content-second").removeClass("d-block")
+      $("#content-second").addClass("d-none")
+    })
+  /*-------------------------------------------------------------------------------
 	  Menu
 	-------------------------------------------------------------------------------*/
 
@@ -166,5 +195,10 @@
         },
       });
     });
+
   }
 })($);
+
+    
+
+
