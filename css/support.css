@@ -1,0 +1,108 @@
+.support-content{
+    margin: 3% 7%;
+}
+
+.faq-title{
+    color: #6979FF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 35px;
+}
+
+.faq-types{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.contact-btn{
+    background-color: #FFFFFF;
+    color: #6979FF;
+    border-radius: 20px;
+    padding: 5px 15px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.trouble-title{
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.trouble-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #6979FF;
+}
+
+.support-btn {
+  background-color: #6979FF;
+  border: 2px solid #6979FF;
+  color: #FFFFFF;
+  border-radius: 13.3333px;
+  padding: 20px 10px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  font-size: 18.2px;
+}
+
+.support-btn:hover {
+    box-shadow: rgb(92 148 165 / 20%) 0 0 0 6px;
+    background-color: #FFFFFF;
+    border: 2px solid #6979FF;
+    color: #6979FF;
+  }
+ 
+.card {
+    position: relative;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    margin: 10px;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 0;
+}
+
+.card-header {
+    padding: 0;
+    background-color: #ffffff;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header:first-child {
+    border-radius: 25rem;
+}
+
+.title-collapse {
+    margin: 0;
+    font-size: 1.125rem;
+    color: black;
+}
+
+.btn-link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.arrow-down {
+    width: 30px;
+    opacity: 0.2;
+}
+
+.faq-text {
+    margin: 10px;
+}
