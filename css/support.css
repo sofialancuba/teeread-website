@@ -117,7 +117,7 @@
 }
 
 .card {
-  padding: 5px 15px;
+  padding: 15px 15px;
   position: relative;
   display: flex;
   -ms-flex-direction: column;
@@ -182,9 +182,25 @@
 .card-content[aria-expanded="true"] {
   border: 1px solid #6979ff !important;
 }
-.card-content div p:hover,
+
 .card-content[aria-expanded="true"] div p {
   color: #6979ff;
+  font-weight: bold;
+}
+
+.fs-12 {
+  font-size: 1.2rem;
+}
+
+#content-first,
+#content-second,
+#content-third {
+  margin-bottom: 3rem;
+}
+
+.faq-text {
+  margin-top: 10px;
+  line-height: 2rem;
 }
 
 @media (max-width: 590px) {
