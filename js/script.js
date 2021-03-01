@@ -53,6 +53,14 @@
       $("#content-second").removeClass("d-block")
       $("#content-second").addClass("d-none")
     })
+
+    if ($("#content-first").hasClass("d-block")) {
+      $("#btn-first-class").addClass("support-btn-white")
+    } else if ($("#content-second").hasClass("d-block")) {
+      $("#btn-second-class").addClass("support-btn-white")
+    } else if ($("#content-third").hasClass("d-block")) {
+      $("#btn-third-class").addClass("support-btn-white")
+    }
   /*-------------------------------------------------------------------------------
 	  Menu
 	-------------------------------------------------------------------------------*/

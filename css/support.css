@@ -87,6 +87,13 @@
     border: 2px solid #6979FF;
     color: #6979FF;
   }
+
+.support-btn-white{
+    box-shadow: rgb(92 148 165 / 20%) 0 0 0 6px !important;
+    background-color: #FFFFFF !important;
+    border: 2px solid #6979FF !important;
+    color: #6979FF !important;
+}
  
 .card {
     padding: 5px 15px;
@@ -133,6 +140,12 @@
     opacity: 0.2;
 }
 
+.blue-group{
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
 @media (max-width: 590px) {
     .faq-types {
       flex-direction: column;
@@ -141,5 +154,18 @@
         width: 100%;
         margin: 10px 0 10px 0;
         padding: 10px 0;
+    }
+    .blue-group{
+        flex-direction: column;
+    }
+  }
+
+@media (max-width: 938px) {
+    .support-btn {  
+        padding: 5px 5px;
+    }
+    .faq-types{
+        flex-direction: column;
+        margin-top: 10px;
     }
   }
