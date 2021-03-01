@@ -3039,3 +3039,18 @@ ul.menu-footer > li.title-menu-footer {
   border-radius: 7px;
   box-shadow: 0 10px 30px rgb(0 0 0 / 20%);
 }
+
+/*-------------------------------------------------------------------------------
+  LINK SUPPORT FOOTER
+-------------------------------------------------------------------------------*/
+.fw-bold {
+  font-weight: bold;
+}
+
+.line-vertical {
+  border-right: 1px solid #fff;
+}
+
+.link-support:hover {
+  opacity: 80%;
+}
