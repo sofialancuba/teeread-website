@@ -27,32 +27,61 @@
   /*-------------------------------------------------------------------------------
 	  Support Buttons
 	-------------------------------------------------------------------------------*/
-    $("#btn-second-class").on("click", function () {
-      $("#content-second").addClass("d-block")
-      $("#content-second").removeClass("d-none")
-      $("#content-first").removeClass("d-block")
-      $("#content-first").addClass("d-none")
-      $("#content-third").removeClass("d-block")
-      $("#content-third").addClass("d-none")
-    })
+  $("#btn-second-class").on("click", function () {
+    $("#content-second").addClass("d-block");
+    $("#content-second").removeClass("d-none");
+    $("#content-first").removeClass("d-block");
+    $("#content-first").addClass("d-none");
+    $("#content-third").removeClass("d-block");
+    $("#content-third").addClass("d-none");
+    $("#btn-first-class").removeClass("support-btn-active");
+    $("#btn-first-class").addClass("support-btn");
+    $("#btn-third-class").removeClass("support-btn-active");
+    $("#btn-third-class").addClass("support-btn");
+    $("#btn-second-class").removeClass("support-btn");
+    $("#btn-second-class").addClass("support-btn-active");
+  });
 
-    $("#btn-first-class").on("click", function () {
-      $("#content-first").addClass("d-block")
-      $("#content-first").removeClass("d-none")
-      $("#content-second").removeClass("d-block")
-      $("#content-second").addClass("d-none")
-      $("#content-third").removeClass("d-block")
-      $("#content-third").addClass("d-none")
-    })
+  $("#btn-first-class").on("click", function () {
+    $("#content-first").addClass("d-block");
+    $("#content-first").removeClass("d-none");
+    $("#content-second").removeClass("d-block");
+    $("#content-second").addClass("d-none");
+    $("#content-third").removeClass("d-block");
+    $("#content-third").addClass("d-none");
+    $("#btn-first-class").removeClass("support-btn");
+    $("#btn-first-class").addClass("support-btn-active");
+    $("#btn-third-class").removeClass("support-btn-active");
+    $("#btn-third-class").addClass("support-btn");
+    $("#btn-second-class").removeClass("support-btn-active");
+    $("#btn-second-class").addClass("support-btn");
+  });
 
-    $("#btn-third-class").on("click", function () {
-      $("#content-third").removeClass("d-none")
-      $("#content-third").addClass("d-block")
-      $("#content-first").addClass("d-none")
-      $("#content-first").removeClass("d-block")
-      $("#content-second").removeClass("d-block")
-      $("#content-second").addClass("d-none")
-    })
+  $("#btn-third-class").on("click", function () {
+    $("#content-third").removeClass("d-none");
+    $("#content-third").addClass("d-block");
+    $("#content-first").addClass("d-none");
+    $("#content-first").removeClass("d-block");
+    $("#content-second").removeClass("d-block");
+    $("#content-second").addClass("d-none");
+    $("#btn-first-class").removeClass("support-btn-active");
+    $("#btn-first-class").addClass("support-btn");
+    $("#btn-third-class").removeClass("support-btn");
+    $("#btn-third-class").addClass("support-btn-active");
+    $("#btn-second-class").removeClass("support-btn-active");
+    $("#btn-second-class").addClass("support-btn");
+  });
+
+  // Arrow icons support
+
+  $(".panel-collapse").on("show.bs.collapse", function () {
+    $(this).siblings(".card-header").addClass("active");
+  });
+
+  $(".panel-collapse").on("hide.bs.collapse", function () {
+    $(this).siblings(".card-header").removeClass("active");
+  });
+
   /*-------------------------------------------------------------------------------
 	  Menu
 	-------------------------------------------------------------------------------*/
@@ -195,10 +224,5 @@
         },
       });
     });
-
   }
 })($);
-
-    
-
-
