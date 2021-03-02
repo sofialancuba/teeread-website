@@ -1,0 +1,91 @@
+.main-subtitle {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+.blue-subtitle {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #6D78FF;
+  }
+.circle-animations {
+    width: 80%;
+    height: 100%;
+    -webkit-animation: phone_animation 7s linear infinite;
+    animation: phone_animation 7s linear infinite;
+  }
+.road {
+    width: 100%;
+    background-image: url("../img/map.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.blue-section {
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    background-color: #35B0FF;
+}
+
+.blue-text {
+    display: flex;
+    width: 100%;
+    padding: 100px;
+    background-color: #35B0FF;
+}
+
+.video-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #35B0FF;
+}
+
+.point-of-view {
+    width: auto;
+    height: 28rem;
+    right: -2rem;
+    top: 20%;
+    bottom: auto;
+    left: auto !important;
+    -webkit-animation: ring_animation 15s linear infinite;
+    animation: ring_animation 15s linear infinite
+}
+
+.value-circle {
+    width: auto;
+    height: 25rem;
+    left: -13.9375rem;
+    top: 2rem;
+    bottom: auto;
+    -webkit-animation: ring_animation 15s linear infinite;
+    animation: ring_animation 15s linear infinite;
+}
+
+.free-future {
+    right: 55px;
+    width: 25%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: -30px;
+}
+
+.literacy-section{
+    color: #FFFFFF;
+}
+
+#myVideo {
+    object-fit: cover;
+    width: 100%;
+  }
+
+.video-text {
+    position: absolute;
+    text-align: center;
+    padding: 0 15%;
+}
+
+.video-button {
+    position: absolute;
+    text-align: center;
+}

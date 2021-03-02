@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
+    <meta name="description" content="TeeRead - Assess your student’s reading automatically">
+    <meta name="author" content="Tixcode">
+
+    <title>TeeRead</title>
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/owl.theme.default.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/jquery.pagepiling.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="css/LineIcons.css" rel="stylesheet">
+    <link href="css/verticalLoaders.css" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/whyIsReadingImportantStyle.css" rel="stylesheet">
+    <link href="css/ourStory.css" rel="stylesheet">
+    <link href="css/pagepiling.how.it.works.css" rel="stylesheet">
+
+    <!-- mailchimp -->
+    <!-- <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css"> -->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/site.webmanifest">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#222222">
+    <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169179571-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-169179571-1');
+    </script>
+    <script>
+        !function () {
+            var analytics = window.analytics = window.analytics || []; if (!analytics.initialize) if (analytics.invoked) window.console && console.error && console.error("Segment snippet included twice."); else {
+                analytics.invoked = !0; analytics.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "reset", "group", "track", "ready", "alias", "debug", "page", "once", "off", "on", "addSourceMiddleware", "addIntegrationMiddleware", "setAnonymousId", "addDestinationMiddleware"]; analytics.factory = function (e) { return function () { var t = Array.prototype.slice.call(arguments); t.unshift(e); analytics.push(t); return analytics } }; for (var e = 0; e < analytics.methods.length; e++) { var key = analytics.methods[e]; analytics[key] = analytics.factory(key) } analytics.load = function (key, e) { var t = document.createElement("script"); t.type = "text/javascript"; t.async = !0; t.src = "https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js"; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(t, n); analytics._loadOptions = e }; analytics._writeKey = "eTuAxEQkCbrU5e5xrBEF3hxDfSV9T7uh"; analytics.SNIPPET_VERSION = "4.13.2";
+                analytics.load("eTuAxEQkCbrU5e5xrBEF3hxDfSV9T7uh");
+                analytics.page();
+            }
+        }();
+    </script>
+</head>
+
+<body class="body-copyright-light">
+    <div class="preloader">
+        <div class="three-bounce">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <header id="header" class="header header-fixed">
+            <div class="header-bg"></div>
+
+            <div class="container clearfix">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <!-- LOGO -->
+                        <div class="brand">
+                            <a href="index.html">
+                                <img src="img/logo/logo-teeread.png" alt="logo teeread" width="50px">
+                            </a>
+                        </div>
+
+                        <!-- MENU HEADER -->
+                        <div class="header-content d-none d-md-block">
+                            <nav class="menu-header">
+                                <ul class="d-flex">
+                                    <li><a href="index.html">TEEREAD</a></li>
+                                    <li><a href="howItWorks.html">HOW IT WORKS</a></li>
+                                    <li data-menuanchor="Resources"><a href="whyIsReadingImportant.html">WHY
+                                            READING?</a></li>
+                                    <li><a href="support.html">FAQ</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-end">
+                        <!-- ---------------- HIDE --------------- -->
+                        <!-- <div class="d-none d-md-block"> -->
+                        <!-- ---------------- /HIDE --------------- -->
+                        <div class="d-flex align-items-center">
+                            <!-- ---------------- HIDE --------------- -->
+                            <!-- <div class="btn-sign-in mr-4" data-toggle="modal" data-target="#send-request">Sign in</div> -->
+                            <!-- ---------------- /HIDE --------------- -->
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#send-request">join the
+                                waitlist</button>
+                        </div>
+                        <!-- ---------------- HIDE --------------- -->
+                        <!-- </div> -->
+                        <!-- ---------------- /HIDE --------------- -->
+
+
+                        <!-- MENU NAV TOGGLE -->
+                        <button class="nav-toggle-btn a-nav-toggle d-md-none ml-4">
+                            <span class="nav-toggle">
+                                <span class="stick stick-1"></span>
+                                <span class="stick stick-2"></span>
+                            </span>
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="hide-menu a-nav-toggle"></div>
+
+            <div class="menu">
+                <!-- <div class="menu-lang">
+            <a href="#" class="menu-lang-item active">Eng</a>
+            <a href="#" class="menu-lang-item">fra</a>
+            <a href="#" class="menu-lang-item">ger</a>
+          </div> -->
+
+                <nav class="menu-main" id="accordion">
+                    <ul id="menuMain">
+                        <li><a href="index.html">Teeread</a></li>
+                        <li><a href="howItWorks.html">How it works</a></li>
+                        <li class="active"><a href="whyIsReadingImportant.html">Why reading?</a></li>
+                        <li><a href="support.html">Support</a></li>
+                    </ul>
+                </nav>
+
+                <!-- <div class="menu-footer">
+              <ul class="social social-rounded">
+                <li><a href="#"><i class="lni lni-twitter-filled"></i></a></li>
+                <li><a href="#"><i class="lni lni-behance-original"></i></a></li>
+                <li><a href="#"><i class="lni lni-instagram-original"></i></a></li>
+              </ul>
+            <div class="menu-copyright">&copy; TeeRead 2020<br /> All Rights Reserved</div>
+          </div> -->
+            </div>
+        </header>
+
+
+        <div id="content" class="content">
+            <div class="homepage-personal a-pagepiling">
+
+                <!-- SECTION-1 -->
+                <div class="section pp-scrollable slide-dark slide-dark-footer">
+                    <div class="slide-container align-items-start pb-0">
+                        <!-- <div class="slide-bg animate-element delay5 fadeInLeft">
+                <img src="img/triangle-blue.png" alt="" class="slide-photo slide-triangle-blue-how-it-works">
+              </div> -->
+                        <div class="container">
+                            <div class="row d-flex align-items-center justify-content-center">
+                                <div class="col-12 col-md-12 col-lg-6 z-index-1">
+                                    <h1 class="slide-title-how-it-works animate-element delay4 fadeInDown color-blue">
+                                        Our story
+                                    </h1>
+                                    <div class="animate-element delay6 fadeInUp">
+                                        <h3 class="main-subtitle md-text-left">
+                                            “We work, we sweat, so that every kid has a fighting chance”
+                                        </h3>
+                                        <p mb-2>Hi there!</p>
+                                        <p mb-2>We are TeeRead, a team of passionate people dedicated to make the
+                                            reading crisis a problem of the past. I’m Trini, TeeRead’s founder and CEO.
+                                        </p>
+                                        <p mb-2>TeeRead was born in Chicago, IL after I learned something that stopped
+                                            me cold—
+                                            <b>65% of our kids in America can’t read proficiently</b>.
+                                            This means that 65% of our kids can’t learn independently or properly
+                                            explore and understand new ideas.
+                                        </p>
+                                        <p mb-2>I couldn’t believe it; how can children even hope for a bright future if
+                                            they can’t read proficiently?</p>
+                                        <p>Pledging to do something about this, I consulted with teachers across the
+                                            country to determine how I could help.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-8 col-md-8 col-xl-6 col-lg-6 mt-4 mt-lg-0 mt-xl-0">
+                                    <div
+                                        class="animate-element delay5 fadeInRight d-flex justify-content-center gif-phone gif-phone1 pb-0">
+                                        <img src="img/ceo.png" class="circle-animations" alt="ceo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- cards -->
+
+                </div>
+
+                <!-- SECTION-2 -->
+
+                <div class="section pp-scrollable slide-dark slide-dark-footer">
+                    <div class="slide-container align-items-start pb-0">
+                        <!-- <div class="slide-bg animate-element delay5 fadeInLeft">
+                  <img src="img/triangle-blue.png" alt="" class="slide-photo slide-triangle-blue-how-it-works">
+                </div> -->
+                        <div class="road">
+                            <div class="container">
+                                <div class="row d-flex align-items-center justify-content-center">
+                                    <div class="col-12 col-md-12 col-lg-6 z-index-1">
+                                        <div class="animate-element delay6 fadeInUp">
+                                            <h3 class="blue-subtitle md-text-left mb-3">
+                                                Teachers showed me the path
+                                            </h3>
+                                            <p mb-2>Having been a teacher assistant at a local school during college, I
+                                                knew that the real changemakers are the women and men showing up in
+                                                classrooms every day to teach our children. </p>
+                                            <p mb-2>The frustrations of the teachers I spoke with were clear.</p>
+                                            <p mb-2 class="font-weight-bold">They told me they would be much more
+                                                effective if they could continually tailor instruction by individually
+                                                testing each student’s reading fluency and comprehension. </p>
+                                            <p mb-2 class="font-weight-bold">But this would require an extra full day of
+                                                work every week—impossible! They were already working overtime.</p>
+                                            <p mb-2>And I thought… wait a second. If Alexa can listen to my voice,
+                                                create a to-do list, and buy my groceries, why can’t I use the same core
+                                                AI and speech recognition technology to help those shaping our kids’
+                                                futures? Why can’t I make such technology accessible at scale all around
+                                                the world to end the literacy crisis?</p>
+                                            <p>The frustrations of the teachers I spoke with were clear.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-8 col-md-8 col-xl-6 col-lg-6 mt-4 mt-lg-0 mt-xl-0">
+                                        <div
+                                            class="animate-element delay5 fadeInRight d-flex justify-content-center gif-phone gif-phone1 pb-0">
+                                            <img src="img/schoolgroup.png" class="circle-animations" alt="school">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SECTION-3 -->
+                <div class="section pp-scrollable slide-dark slide-dark-footer">
+                    <div class="slide-container align-items-start pb-0">
+                        <div class="blue-section">
+                            <div class="slide-bg animate-element delay5 fadeInRight">
+                                <img src="img/pointview.png" alt="" class="slide-photo point-of-view">
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-md-12 col-lg-8 z-index-1">
+                                        <h1 class="slide-title-how-it-works animate-element delay4 fadeInDown mb-4"
+                                            style="color: #FFFFFF;">
+                                            Our point of view
+                                        </h1>
+                                        <div class="animate-element delay6 fadeInUp">
+                                            <p mb-2 style="color: #FFFFFF;">We dream of a world in which all children
+                                                can become whomever they
+                                                want to be, regardless of their background. We know that besides
+                                                fulfilling their basic human needs, all children must develop their
+                                                minds, growing into adults who are free to choose and create the lives
+                                                that they envision.
+                                            </p>
+                                            <p mb-2 style="color: #FFFFFF;"> <b>This journey starts with reading.</b>
+                                            </p>
+                                            <p mb-2 style="color: #FFFFFF;">Reading is the stepping-stone to learning;
+                                                it’s the key to opening
+                                                possibilities, allowing our children to dream a bright future and
+                                                believe they can make it happen.
+                                            </p>
+                                            <p mb-2 style="color: #FFFFFF;">At TeeRead, we sweat and fight to create a
+                                                world in which every
+                                                child can read, giving all children a fighting chance to reach their
+                                                potential and freely choose their future.
+                                            </p>
+                                            <p style="color: #FFFFFF;">This isn’t just a dream; it’s our objective.
+                                                Let’s make the literacy
+                                                crisis a problem of the past, because for us every kid counts.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="animate-element delay5 fadeInRight d-flex justify-content-center gif-phone gif-phone1 pb-0">
+                                <img src="img/pointview.png" class="circle-animations" alt="student">
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION-4 -->
+                <div class="section pp-scrollable slide-personal-services">
+                    <div class="slide-container align-items-start">
+                        <!-- circle-orange -->
+                        <div class="slide-bg animate-element delay5 fadeInRight">
+                            <img src="img/elipse.png" alt="" class="slide-photo value-circle ">
+                        </div>
+                        <div class="container">
+                            <div class="row award-list d-flex justify-content-center my-5">
+                                <div class="col-12 mb-5">
+                                    <h1 class="animate-element delay5 fadeInDown violet">
+                                        <b>Our values</b>
+                                    </h1>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-4 animate-element delay5 fadeInUp mb-5 px-5">
+                                    <div class="">
+                                        <img class="free-future" src="img/freefuture.png" alt="" />
+                                        <h3 class="blue-subtitle md-text-left mb-2">
+                                            Create for a free future
+                                        </h3>
+                                        <p>We have the power to change the world. We work and we sweat to go beyond what
+                                            is established, providing new tools that enable children to become free
+                                            adults
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-4 animate-element delay5 fadeInUp mb-5 px-5">
+                                    <div class="">
+                                        <img class="free-future" src="img/support.png" alt="" />
+                                        <h3 class="blue-subtitle md-text-left mb-2">
+                                            Support teachers
+                                        </h3>
+                                        <p>We want to support teachers in every way we can, they are the key to the
+                                            future of our kids, and so, they must be cherished and recognized
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-4 animate-element delay5 fadeInUp mb-5 px-5">
+                                    <div class="">
+                                        <img class="free-future" src="img/creations.png" alt="" />
+                                        <h3 class="blue-subtitle md-text-left mb-2">
+                                            Nurturing co-creation
+                                        </h3>
+                                        <p>We can’t do this alone. We work with teachers, families, communities and
+                                            anyone who shares our dream
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-4 animate-element delay5 fadeInUp mb-5 px-5">
+                                    <div class="">
+                                        <img class="free-future" src="img/iconstudents.png" alt="" />
+                                        <h3 class="blue-subtitle md-text-left mb-2">
+                                            Eternal student </h3>
+                                        <p>We are always learning and improving, evolving with students, teachers and
+                                            technologies. We are humble and constantly seek feedback
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-4 animate-element delay5 fadeInUp mb-5 px-5">
+                                    <div class="">
+                                        <img class="free-future" src="img/valuecreators.png" alt="" />
+                                        <h3 class="blue-subtitle md-text-left mb-2">
+                                            Value creators </h3>
+                                        <p>In a world where more tools don’t mean more help, we must provide real
+                                            assistance. It’s our responsibility to give it our all
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 col-lg-4 animate-element delay5 fadeInUp mb-5 px-5">
+                                    <div class="">
+                                        <img class="free-future" src="img/globaldiverse.png" alt="" />
+                                        <h3 class="blue-subtitle md-text-left mb-2">
+                                            Global & diverse </h3>
+                                        <p>Our purpose is worldwide, we will not rest until every child in the world can
+                                            read, no matter where they come from
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION-5 -->
+                <div class="section pp-scrollable slide-dark slide-dark-footer">
+                    <div class="slide-container align-items-start pb-0">
+                        <div class="blue-text justify-content-center">
+                            <div class="col-12 col-md-12 col-lg-8 z-index-1">
+                                <h1 class="animate-element delay5 fadeInDown literacy-section">
+                                    <b>“Literacy is the first step towards freedom, towards liberation from social and
+                                        economic constraints. It is the prerequisite for development, both individual
+                                        and collective...”
+                                    </b>
+                                </h1>
+                                <p class="animate-element delay5 fadeInDown literacy-section">Director-General of
+                                    UNESCO, Audrey Azoulay</p>
+                            </div>
+                            <!-- <div class="animate-element delay5 fadeInRight d-flex justify-content-center gif-phone gif-phone1 pb-0">
+                                <img src="img/pointview.png" class="circle-animations" alt="student">
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION-6 -->
+                <div class="section pp-scrollable slide-dark slide-dark-footer">
+                    <div class="slide-container align-items-start pb-0">
+                        <div class="video-section justify-content-center">
+                            <h1 class="video-text slide-title-how-it-works animate-element delay4 fadeInDown mb-4"
+                                style="color: #FFFFFF;">
+                                Let’s make our literacy crisis a problem of the past
+                            </h1>
+                            <video autoplay muted loop id="myVideo">
+                                <source src="./img/videostudents.mp4" type="video/mp4">
+                            </video>
+                            <button
+                                class="video-button btn btn-primary animate-element delay8 fadeInUp d-none d-md-block d-lg-block d-xl-block"
+                                data-toggle="modal" data-target="#send-request">Join the waitlist
+                            </button>
+                </div>
+                            <!-- <div class="animate-element delay5 fadeInRight d-flex justify-content-center gif-phone gif-phone1 pb-0">
+                                <img src="img/pointview.png" class="circle-animations" alt="student">
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide-container slide-container-header align-items-start">
+                    <div class="flex-container d-md-none d-lg-none d-xl-none">
+                        <div class="footer-bg-mobile animate-element delay9 fadeInDown"></div>
+                    </div>
+                </div>
+                <footer class="flex-container footer pt-0">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 my-4">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-6">
+                                        <a class="text-white fw-bold mr-3 link-support" href="support.html">Support</a>
+                                        <span class="line-vertical"></span>
+                                        <small class="copyright-white">Copyright © 2021. All rights
+                                            reserved.</small>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul class="social social-rounded d-flex justify-content-end">
+                                            <li><a href="https://www.youtube.com/channel/UCop2B0gRpACkFYAWOAhelCw"
+                                                    target="_link"><i class="lni lni-youtube"></i></a></li>
+                                            <li class="mr-0"><a href="https://www.instagram.com/teeread_ok/"
+                                                    target="_link"><i class="lni lni-instagram-original"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="send-request">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Join the waitlist</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="lni lni-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="slide-descr">Sign up and be the first to try TeeRead!</p>
+                    <!-- Begin Mailchimp Signup Form -->
+                    <div id="mc_embed_signup">
+                        <!-- <form
+                            action="https://teeread.us10.list-manage.com/subscribe/post?u=e3be2f84ce84baafe79715602&amp;id=d62dc9aa78"
+                            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                            class="validate" target="_blank" novalidate> -->
+                        <div id="mc_embed_signup_scroll">
+                            <div class="row">
+                                <div class="mc-field-group col-sm-12">
+                                    <label for="mce-EMAIL">Email Address (required)</label>
+                                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                                </div>
+                                <div class="mc-field-group col-md-6 col-sm-12">
+                                    <label for="mce-NAME">Name </label>
+                                    <input type="text" value="" name="NAME" class="" id="mce-NAME">
+                                </div>
+                                <div class="mc-field-group col-md-6 col-sm-12">
+                                    <label for="mce-SCHOOL">School Name </label>
+                                    <input type="text" value="" name="SCHOOL" class="" id="mce-SCHOOL">
+                                </div>
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_e3be2f84ce84baafe79715602_d62dc9aa78" tabindex="-1" value="">
+                            </div>
+                            <div class="clear center-md">
+                                <input type="submit" value="Join the waitlist!" name="subscribe"
+                                    id="mc-embedded-subscribe" class="button">
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+                    <!-- <script type='text/javascript'
+                        src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                    <script
+                        type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'NAME'; ftypes[1] = 'text'; fnames[2] = 'SCHOOL'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script> -->
+                    <!--End mc_embed_signup-->
+                    <!-- <form class="form-request a-ajax-form">
+              <div class="form-group form-group-material a-form-group">
+                <input type="text" name="name" class="form-control" placeholder="Name">
+              </div>
+              <div class="form-group form-group-material a-form-group">
+                <input type="email" name="email" class="form-control" required="" placeholder="Email Address (required)">
+              </div>
+              <div class="form-group form-group-material a-form-group">
+                <input type="text" name="school-name" class="form-control" placeholder="School Name">
+              </div>
+              <div class="message text-success success-message">Your message is successfully sent...</div>
+              <div class="message text-danger error-message">Sorry something went wrong</div>
+              <div class="control-btn text-right">
+                <button type="submit" class="btn btn-success">Submit</button>
+              </div>
+            </form> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.pagepiling.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/pagepiling.reading.important.js"></script>
+
+</body>
+
+</html>
