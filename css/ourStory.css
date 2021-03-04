@@ -139,7 +139,7 @@
     }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
     .point-section{
         flex-direction: column;
     }
@@ -150,5 +150,8 @@
         position: relative !important;
         margin: 15px auto;
         overflow: inherit;
+    }
+    .road{
+        background-image: none;
     }
 }
