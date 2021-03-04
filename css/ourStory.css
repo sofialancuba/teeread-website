@@ -17,9 +17,16 @@
     width: 100%;
     background-image: url("../img/map.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 92%;
 }
 .blue-section {
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    background-color: #35B0FF;
+}
+
+.point-section {
     display: flex;
     width: 100%;
     padding: 40px;
@@ -35,9 +42,10 @@
 
 .video-section {
     width: 100%;
+    height: 86vh;
     display: flex;
     align-items: center;
-    background-color: #35B0FF;
+    flex-direction: column;
 }
 
 .point-of-view {
@@ -77,15 +85,70 @@
 #myVideo {
     object-fit: cover;
     width: 100%;
+    overflow: hidden;
   }
 
 .video-text {
-    position: absolute;
     text-align: center;
     padding: 0 15%;
 }
 
 .video-button {
-    position: absolute;
     text-align: center;
+}
+
+.text-area{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.point-bg{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    overflow: hidden;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+
+.point-photo{
+    position: absolute !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+@media (min-width: 415px) and (max-width: 767px) {
+    .free-future{
+        width: 15%;
+    }
+  }
+
+@media (max-width: 990px) {
+    .blue-text{
+        margin-top: 10%;
+        padding: 40px;
+    }
+}
+
+@media (max-width: 990px) {
+    .point-section{
+        flex-direction: column;
+    }
+    .point-photo{
+        position: relative !important;
+    }
+    .point-bg{
+        position: relative !important;
+        margin: 15px auto;
+        overflow: inherit;
+    }
 }
