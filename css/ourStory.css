@@ -207,6 +207,9 @@
 }
 
 @media (max-width: 991px) {
+  .blue-text {
+    height: calc(100vh - 81px);
+  }
   .point-section {
     height: auto;
   }
@@ -230,6 +233,12 @@
   .img-trini,
   .circle-school-group {
     margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 356px) {
+  h1.literacy-section {
+    font-size: 2.1rem;
   }
 }
 
