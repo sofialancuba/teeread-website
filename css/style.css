@@ -1503,6 +1503,10 @@ label.error {
   animation-delay: 1s;
 }
 
+.section.active .delay11 {
+  animation-delay: 1.1s;
+}
+
 .section.active .delay16 {
   animation-delay: 1.6s;
 }
