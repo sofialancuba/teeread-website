@@ -4,9 +4,16 @@
 }
 .blue-subtitle {
   font-weight: bold;
+  font-size: 1.7rem;
+  color: #6d78ff;
+}
+
+.blue-subtitle-teachers {
+  font-weight: bold;
   font-size: 1.8rem;
   color: #6d78ff;
 }
+
 .slide-container-index-our-story {
   width: 100%;
   min-height: 100%;
@@ -14,6 +21,31 @@
   align-items: center;
   padding-top: 3.75rem;
   position: relative;
+}
+
+.slide-container-our-point,
+.slide-container-literacy {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 5.4rem;
+  position: relative;
+}
+
+.slide-container-video {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 5.5rem;
+  padding-bottom: 3.25rem;
+  position: relative;
+}
+
+.slide-container-video > .container {
+  position: relative;
+  z-index: 200;
 }
 
 .circle-animations {
@@ -75,7 +107,7 @@
   width: 100%;
   padding: 40px;
   background-color: #35b0ff;
-  height: calc(100vh - 103px);
+  height: calc(100vh - 83px);
 }
 
 .blue-text {
@@ -83,7 +115,7 @@
   width: 100%;
   padding: 100px;
   background-color: #35b0ff;
-  height: calc(100vh - 95px);
+  height: calc(100vh - 81px);
 }
 
 .video-section {
@@ -104,7 +136,11 @@
   -webkit-animation: ring_animation 15s linear infinite;
   animation: ring_animation 15s linear infinite;
 }
-
+@media (max-width: 1275px) {
+  .blue-text {
+    height: calc(100vh - 76px);
+  }
+}
 @media (max-width: 1190px) {
   .point-of-view {
     right: 4rem;
@@ -122,6 +158,12 @@
 @media (max-width: 990px) {
   .point-of-view {
     right: 0rem;
+  }
+  .slide-container-our-point {
+    padding-top: 6.75rem;
+  }
+  .point-section {
+    padding: 40px 0;
   }
 }
 
@@ -208,7 +250,7 @@
 
 @media (max-width: 991px) {
   .blue-text {
-    height: calc(100vh - 81px);
+    height: calc(100vh - 71px);
   }
   .point-section {
     height: auto;
@@ -233,6 +275,15 @@
   .img-trini,
   .circle-school-group {
     margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .slide-container-literacy {
+    padding-top: 6.4rem;
+  }
+  .slide-container-video {
+    padding-top: 6.5rem;
   }
 }
 
