@@ -46,9 +46,23 @@
   animation: ring_animation 15s linear infinite;
 }
 
+@media (max-width: 1365px) {
+  .slide-road-our-story {
+    right: 3.0625rem;
+    top: 19.518519%;
+  }
+}
+
 @media (max-width: 1263px) {
   .slide-road-our-story {
     right: 4.0625rem;
+  }
+}
+
+@media (max-width: 1070px) {
+  .slide-road-our-story {
+    height: 36rem;
+    right: 1.0625rem;
   }
 }
 
@@ -83,12 +97,32 @@
 .point-of-view {
   width: auto;
   height: 31rem;
-  right: -2rem;
+  right: 6rem;
   top: 25%;
   bottom: auto;
   left: auto !important;
   -webkit-animation: ring_animation 15s linear infinite;
   animation: ring_animation 15s linear infinite;
+}
+
+@media (max-width: 1190px) {
+  .point-of-view {
+    right: 4rem;
+  }
+}
+
+@media (max-width: 1120px) {
+  .point-of-view {
+    right: -3rem;
+    height: 32rem;
+    top: 24%;
+  }
+}
+
+@media (max-width: 990px) {
+  .point-of-view {
+    right: 0rem;
+  }
 }
 
 .value-circle {
@@ -201,6 +235,19 @@
 
 .main-subtitle-our-story {
   font-weight: bold;
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.slide-title-our-story {
+  font-size: 2.5rem;
+}
+
+.title-our-values {
+  font-family: "Monserrat", sans-serif !important;
+  font-weight: bold;
+}
+
+.mb-custom-title {
+  margin-bottom: 1.2rem;
 }
