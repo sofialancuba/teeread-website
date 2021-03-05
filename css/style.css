@@ -2846,6 +2846,15 @@ ul.menu-footer > li.title-menu-footer {
   color: #30ad71;
 }
 
+.social-nav-toggle a {
+  color: #30ad71 !important;
+  transition: color 0.3s ease !important;
+}
+
+.social-nav-toggle a:hover {
+  color: #999999 !important;
+}
+
 .social-fixed {
   position: fixed;
   z-index: 300;
