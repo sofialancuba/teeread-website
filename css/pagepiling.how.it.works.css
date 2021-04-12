@@ -17,3 +17,11 @@
 #pp-nav li:nth-child(5n) .active span {
   background-color: #ffa134;
 }
+
+#pp-nav li:nth-child(6n) .active span {
+  background-color: #5864ff;
+}
+
+#pp-nav li:nth-child(7n) .active span {
+  background-color: #5864ff;
+}

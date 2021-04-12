@@ -1,0 +1,242 @@
+.support-content {
+  margin: 3% 7%;
+}
+
+.faq-title {
+  color: #6979ff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.1rem;
+  line-height: 35px;
+}
+
+.faq-types {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.btns-download {
+  margin-left: 2rem;
+}
+
+.contact-btn {
+  background-color: #ffffff;
+  color: #6979ff;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact-btn:hover {
+  color: #6979ff;
+}
+
+.trouble-title {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.trouble-section {
+  display: flex;
+  justify-content: center;
+  background-color: #6979ff;
+  width: 100%;
+  height: auto;
+  background-image: url(../img/doodle.png);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-support {
+  margin-right: 2rem;
+}
+
+.list-icon {
+  width: 20px;
+}
+
+.trouble-action {
+  display: flex;
+  margin: 30px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.support-btn {
+  background-color: #6979ff;
+  border: 2px solid #6979ff;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 20px 10px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  font-size: 18.2px;
+}
+
+.support-btn-active {
+  box-shadow: rgb(92 148 165 / 20%) 0 0 0 6px;
+  background-color: #ffffff;
+  border: 2px solid #6979ff;
+  color: #6979ff;
+  border-radius: 10px;
+  padding: 20px 10px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  font-size: 18.2px;
+}
+
+.support-btn:hover {
+  box-shadow: rgb(92 148 165 / 20%) 0 0 0 6px;
+  background-color: #ffffff;
+  border: 2px solid #6979ff;
+  color: #6979ff;
+}
+
+.support-btn:focus {
+  box-shadow: rgb(92 148 165 / 20%) 0 0 0 6px;
+  background-color: #ffffff;
+  border: 2px solid #6979ff;
+  color: #6979ff;
+}
+
+.support-btn-white {
+  box-shadow: rgb(92 148 165 / 20%) 0 0 0 6px !important;
+  background-color: #ffffff !important;
+  border: 2px solid #6979ff !important;
+  color: #6979ff !important;
+}
+
+.card {
+  padding: 15px 15px;
+  position: relative;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  margin: 10px 0;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border-radius: 10px;
+}
+
+.card-header {
+  padding: 5px 0;
+  margin: 0;
+  background-color: #ffffff;
+  border: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header:first-child {
+  border-radius: 25rem;
+}
+
+.title-collapse {
+  margin: 0;
+  font-size: 1.125rem;
+  color: black;
+}
+
+.btn-link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.arrow-down {
+  width: 1rem;
+  opacity: 0.8;
+  margin-left: 15px;
+}
+
+.card-header.active img {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.blue-group {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.card-header {
+  cursor: pointer;
+}
+
+.card-content:hover,
+.card-content[aria-expanded="true"] {
+  border: 1px solid #6979ff !important;
+}
+
+.card-content[aria-expanded="true"] div p {
+  color: #6979ff;
+  font-weight: bold;
+}
+
+.fs-12 {
+  font-size: 1.2rem;
+}
+
+#content-first,
+#content-second,
+#content-third {
+  margin-bottom: 3rem;
+}
+
+.faq-text {
+  margin-top: 10px;
+  line-height: 2rem;
+}
+
+@media (max-width: 590px) {
+  .faq-types {
+    flex-direction: column;
+  }
+  .support-btn,
+  .support-btn-active {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    padding: 10px 0;
+  }
+  .blue-group {
+    flex-direction: column;
+  }
+  .btn-support {
+    margin: 0;
+  }
+}
+
+@media (max-width: 938px) {
+  .support-btn,
+  .support-btn-active {
+    padding: 16px 10px;
+  }
+
+  .blue-group {
+    margin-bottom: 15px;
+  }
+
+  .faq-types {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .btns-download {
+    margin-left: 0;
+  }
+}

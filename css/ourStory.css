@@ -1,0 +1,313 @@
+.main-subtitle {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.blue-subtitle {
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: #6d78ff;
+}
+
+.blue-subtitle-teachers {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #6d78ff;
+}
+
+.slide-container-index-our-story {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 3.75rem;
+  position: relative;
+}
+
+.slide-container-our-point,
+.slide-container-literacy {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 5.4rem;
+  position: relative;
+}
+
+.slide-container-video {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 5.5rem;
+  padding-bottom: 3.25rem;
+  position: relative;
+}
+
+.slide-container-video > .container {
+  position: relative;
+  z-index: 200;
+}
+
+.circle-animations {
+  width: 90%;
+  height: 100%;
+  -webkit-animation: phone_animation 7s linear infinite;
+  animation: phone_animation 7s linear infinite;
+}
+.road {
+  width: 100%;
+  background-image: url("../img/map.png");
+  background-repeat: no-repeat;
+  background-size: 92%;
+}
+.blue-section {
+  display: flex;
+  width: 100%;
+  padding: 40px;
+  background-color: #35b0ff;
+}
+
+.slide-road-our-story {
+  width: auto;
+  height: 38rem;
+  right: 10.0625rem;
+  top: 16.518519%;
+  bottom: auto;
+  left: auto !important;
+  -webkit-animation: ring_animation 15s linear infinite;
+  animation: ring_animation 15s linear infinite;
+}
+
+@media (max-width: 1365px) {
+  .slide-road-our-story {
+    right: 3.0625rem;
+    top: 19.518519%;
+  }
+}
+
+@media (max-width: 1263px) {
+  .slide-road-our-story {
+    right: 4.0625rem;
+  }
+}
+
+@media (max-width: 1070px) {
+  .slide-road-our-story {
+    height: 36rem;
+    right: 1.0625rem;
+  }
+}
+
+.circle-school-group {
+  width: 85% !important;
+}
+
+.point-section {
+  display: flex;
+  width: 100%;
+  padding: 40px;
+  background-color: #35b0ff;
+  height: calc(100vh - 83px);
+}
+
+.blue-text {
+  display: flex;
+  width: 100%;
+  padding: 100px;
+  background-color: #35b0ff;
+  height: calc(100vh - 81px);
+}
+
+.video-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.point-of-view {
+  width: auto;
+  height: 31rem;
+  right: 6rem;
+  top: 25%;
+  bottom: auto;
+  left: auto !important;
+  -webkit-animation: ring_animation 15s linear infinite;
+  animation: ring_animation 15s linear infinite;
+}
+@media (max-width: 1275px) {
+  .blue-text {
+    height: calc(100vh - 76px);
+  }
+}
+@media (max-width: 1190px) {
+  .point-of-view {
+    right: 4rem;
+  }
+}
+
+@media (max-width: 1120px) {
+  .point-of-view {
+    right: -3rem;
+    height: 32rem;
+    top: 24%;
+  }
+}
+
+@media (max-width: 990px) {
+  .point-of-view {
+    right: 0rem;
+  }
+  .slide-container-our-point {
+    padding-top: 6.75rem;
+  }
+  .point-section {
+    padding: 40px 0;
+  }
+}
+
+.value-circle {
+  width: auto;
+  height: 25rem;
+  left: -13.9375rem;
+  top: 2rem;
+  bottom: auto;
+  -webkit-animation: ring_animation 15s linear infinite;
+  animation: ring_animation 15s linear infinite;
+}
+
+.free-future {
+  right: 55px;
+  width: 25%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  top: -30px;
+}
+
+.literacy-section {
+  color: #ffffff;
+}
+
+#myVideo {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-text {
+  text-align: center;
+  padding: 0 15%;
+}
+
+.video-button {
+  text-align: center;
+}
+
+.text-area {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.point-bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+  overflow: hidden;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.point-photo {
+  position: absolute !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+@media (min-width: 415px) and (max-width: 767px) {
+  .free-future {
+    width: 15%;
+  }
+}
+
+@media (max-width: 990px) {
+  .blue-text {
+    /* margin-top: 10%; */
+    padding: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .blue-text {
+    height: calc(100vh - 71px);
+  }
+  .point-section {
+    height: auto;
+  }
+  .point-section {
+    flex-direction: column;
+  }
+  .point-photo {
+    position: relative !important;
+  }
+  .point-bg {
+    position: relative !important;
+    margin: 15px auto;
+    overflow: inherit;
+  }
+  .road {
+    background-image: none;
+  }
+  .slide-container-index-our-story {
+    padding-top: 6.75rem;
+  }
+  .img-trini,
+  .circle-school-group {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .slide-container-literacy {
+    padding-top: 6.4rem;
+  }
+  .slide-container-video {
+    padding-top: 6.5rem;
+  }
+}
+
+@media (max-width: 356px) {
+  h1.literacy-section {
+    font-size: 2.1rem;
+  }
+}
+
+.main-subtitle-our-story {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.slide-title-our-story {
+  font-size: 2.5rem;
+}
+
+.title-our-values {
+  font-family: "Monserrat", sans-serif !important;
+  font-weight: bold;
+}
+
+.mb-custom-title {
+  margin-bottom: 1.2rem;
+}
