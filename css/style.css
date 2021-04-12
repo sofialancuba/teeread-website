@@ -2486,6 +2486,10 @@ ul.menu-footer > li > a,
   color: #fff;
 }
 
+.copyright-white a {
+  color: #fff;
+}
+
 ul.menu-footer > li > a:hover {
   color: #30ad71;
 }
