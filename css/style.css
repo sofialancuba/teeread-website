@@ -1658,14 +1658,14 @@ label.error {
 
 .phone-photo {
   width: auto;
-  height: 75vh;
+  height: 70vh;
   -webkit-animation: phone_animation 7s linear infinite;
   animation: phone_animation 7s linear infinite;
 }
 
 .phone-photo-without-animation {
   width: auto;
-  height: 75vh;
+  height: 70vh;
 }
 
 .koala-photo {
