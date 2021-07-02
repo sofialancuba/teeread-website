@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
+    <meta name="description" content="TeeRead - Assess your student’s reading automatically">
+    <meta name="author" content="Tixcode">
+
+    <title>TeeRead</title>
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/owl.theme.default.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/jquery.pagepiling.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="css/LineIcons.css" rel="stylesheet">
+    <link href="css/verticalLoaders.css" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/whyIsReadingImportantStyle.css" rel="stylesheet">
+    <link href="css/ourStory.css" rel="stylesheet">
+    <link href="css/pagepiling.how.it.works.css" rel="stylesheet">
+
+    <!-- mailchimp -->
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/site.webmanifest">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#222222">
+    <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169179571-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-169179571-1');
+    </script>
+    <script>
+        !function () {
+            var analytics = window.analytics = window.analytics || []; if (!analytics.initialize) if (analytics.invoked) window.console && console.error && console.error("Segment snippet included twice."); else {
+                analytics.invoked = !0; analytics.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "reset", "group", "track", "ready", "alias", "debug", "page", "once", "off", "on", "addSourceMiddleware", "addIntegrationMiddleware", "setAnonymousId", "addDestinationMiddleware"]; analytics.factory = function (e) { return function () { var t = Array.prototype.slice.call(arguments); t.unshift(e); analytics.push(t); return analytics } }; for (var e = 0; e < analytics.methods.length; e++) { var key = analytics.methods[e]; analytics[key] = analytics.factory(key) } analytics.load = function (key, e) { var t = document.createElement("script"); t.type = "text/javascript"; t.async = !0; t.src = "https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js"; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(t, n); analytics._loadOptions = e }; analytics._writeKey = "eTuAxEQkCbrU5e5xrBEF3hxDfSV9T7uh"; analytics.SNIPPET_VERSION = "4.13.2";
+                analytics.load("eTuAxEQkCbrU5e5xrBEF3hxDfSV9T7uh");
+                analytics.page();
+            }
+        }();
+    </script>
+</head>
+
+<body class="body-copyright-light">
+<div class="preloader">
+    <div class="three-bounce">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </div>
+</div>
+<div class="wrapper">
+    <header id="header" class="header header-fixed">
+        <div class="header-bg"></div>
+
+        <div class="container clearfix">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    <!-- LOGO -->
+                    <div class="brand">
+                        <a href="index.html">
+                            <img src="img/logo/logo-teeread.png" alt="logo teeread" width="50px">
+                        </a>
+                    </div>
+
+                    <!-- MENU HEADER -->
+                    <div class="header-content d-none d-lg-block">
+                        <nav class="menu-header">
+                            <ul class="d-flex">
+                                <li><a href="index.html">TEEREAD</a></li>
+                                <li><a href="howItWorks.html">HOW IT WORKS</a></li>
+                                <li data-menuanchor="Resources"><a href="whyIsReadingImportant.html">WHY
+                                    READING?</a></li>
+                                <li><a href="ourStory.html">OUR STORY</a></li>
+                                <li><a href="support.html">FAQ</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-end">
+                    <!-- ---------------- HIDE --------------- -->
+                    <!-- <div class="d-none d-md-block"> -->
+                    <!-- ---------------- /HIDE --------------- -->
+                    <div class="d-flex align-items-center">
+                        <!-- ---------------- HIDE --------------- -->
+                        <!-- <div class="btn-sign-in mr-4" data-toggle="modal" data-target="#send-request">Sign in</div> -->
+                        <!-- ---------------- /HIDE --------------- -->
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#send-request">join the
+                            waitlist</button>
+                    </div>
+                    <!-- ---------------- HIDE --------------- -->
+                    <!-- </div> -->
+                    <!-- ---------------- /HIDE --------------- -->
+
+
+                    <!-- MENU NAV TOGGLE -->
+                    <button class="nav-toggle-btn a-nav-toggle d-lg-none ml-4">
+                            <span class="nav-toggle">
+                                <span class="stick stick-1"></span>
+                                <span class="stick stick-2"></span>
+                            </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="hide-menu a-nav-toggle"></div>
+
+        <div class="menu">
+            <nav class="menu-main" id="accordion">
+                <ul id="menuMain">
+                    <li><a href="index.html">Teeread</a></li>
+                    <li><a href="howItWorks.html">How it works</a></li>
+                    <li><a href="whyIsReadingImportant.html">Why reading?</a></li>
+                    <li class="active"><a href="ourStory.html">Our Story</a></li>
+                    <li><a href="support.html">Support</a></li>
+                </ul>
+            </nav>
+
+            <div class="menu-footer">
+                <ul class="social social-rounded social-nav-toggle">
+                    <li><a href="https://www.youtube.com/channel/UCop2B0gRpACkFYAWOAhelCw"
+                           target="_link"><i class="lni lni-youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com/teereadus/"
+                           target="_link"><i class="lni lni-instagram-original"></i></a></li>
+                </ul>
+                <div class="menu-copyright">&copy; TeeRead 2021<br /> All Rights Reserved</div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="content" class="content">
+        <div class="homepage-personal a-pagepiling">
+
+            <!-- SECTION-1 -->
+            <div class="section pp-scrollable slide-dark slide-dark-footer">
+                <div class="slide-container-index-our-story pb-0">
+                    <div class="container">
+                        <div class="row d-flex align-items-center justify-content-center">
+                            <div class="col-12 col-md-12 col-lg-12 z-index-1 pt-lg-5">
+                                <h1 class="slide-title-how-it-works mb-custom-title animate-element delay4 fadeInDown color-blue privacy-policy-title">
+                                    TeeRead - Privacy Policy
+                                </h1>
+                                <div class="animate-element delay6 fadeInUp">
+                                    <h3 class="main-subtitle-our-story md-text-left">
+                                        Effective Date: May 1st, 2021
+                                    </h3>
+                                    <p class="mb-2">Thank you for using TeeRead LLC (“TeeRead”, “we”, “us” or “our”). This is the privacy policy (“Policy”) that governs how we use Personal Information (defined below) that we collect, receive and store about you in connection with the use of our website, teeread.com, as well as any other website or mobile application(s) that we may operate (collectively and together with any subdomains and the content and services therein, the “Site”), and the TeeRead automated literacy assessment and reading comprehension platforms (each, a “Service”). The Site and anyService are individually and collectively referred to herein as the “Services”. <strong>Certain of our Services are used by children and section three herein, entitled “Children’s Privacy”, detail show we collect, use and store children’s Personal Information in connection therewith.</strong></p>
+                                    <p class="mb-2">We value and respect the privacy of our users and protecting your information is important to us. This Policy explains how we handle the collection and use of Personal Information that we obtain and the choices that you can make about how Personal Information is used by TeeRead. “Personal Information” means any information that can be used, alone or in combination with other information, to personally identify an individual, including a first and last name, email address, or a personal profile. In some cases, IP addresses may also be considered Personal Information. Certain clauses of this Policy detail specific pieces of Personal Information that may be collected from time to time – for instance, we explicitly set forth each piece of Personal Information that is collected from children – but for easy comprehension and reference, the generic “Personal Information” is used throughout.</p>
+                                    <p class="mb-2"><b>Consent and Modification</b></p>
+                                    <p class="mb-2">We encourage you to review this Policy periodically, as your use of our Services constitutes consent to this Policy. We may periodically update this Policy, and any changes will be reflected here. If the changes are significant, we may provide a more prominent notice, and at our discretion may email you directly with information on the same. If you do not agree with the practices described in this Policy, you should not use our Services or otherwise interact with TeeRead.</p>
+                                    <p><b class="font-italic">If you have any questions about this Policy or how we use your Personal Information and similar data, please feel free to contact us at <a href="mailto:trini@teeread.com">trini@teeread.com</a>.</b></p>
+                                </div>
+                                <div class="animate-element delay6 fadeInUp">
+                                    <h3 class="main-subtitle-our-story md-text-left">
+                                        Children’s Privacy
+                                    </h3>
+                                    <p class="mb-2">TeeRead’s Services include applications and tools that are meant to facilitate ongoing adolescent education. We do not knowingly collect any Personal Information from children under the age of 13 without parental consent. If we learn that a child under the age of 13 has provided us with Personal Information absent parental consent, or that such Personal Information has otherwise been inadvertently collected, we will delete it in accordance with applicable law, including the Children’s Online Privacy Protection Act.</p>
+                                    <p class="mb-2">When we do collect Personal Information from a child under the age of 13, we do so with the consent of the child’s parent, guardian, or another person with such authority (collectively, the child’s “Parent”). By consenting to the collection of a child’s Personal Information as a Parent, you:</p>
+                                    <ul>
+                                        <li>Represent and warrant that you have the legal authority to provide consent for and act on behalf of the child;</li>
+                                        <li>Authorize TeeRead to use and otherwise process the Personal Information of the child in accordance with this Policy; and</li>
+                                        <li>Agree to indemnify and hold TeeRead harmless against any misuse of our Services by the child, or any other third party</li>
+                                    </ul>
+                                </div>
+                                <div class="animate-element delay6 fadeInUp">
+                                    <p class="mb-2 text-center"><b class="font-italic">Children’s Personal Information We Collect and How We Collect It</b></p>
+                                    <p class="mb-2">Our Services collect the following Personal Information from children: first and last name; class (including a child’s teacher(s)); school name and location; and audio files to assess the child’s reading fluency and comprehension. Based on this information, we assign unique, alphanumeric codes for each individual child. Except for the individual child codes, which are autogenerated by TeeRead, all Personal Information is collected through the Services, either through direct input by the parent or teacher, or directly from the child, such as the audio files.</p>
+                                    <p class="mb-2">We only collect children’s Personal Information as is reasonably necessary to appropriately provide our Services. We only retain children’s Personal Information for as long as is necessary to provide our Services. When it is no longer necessary, such as when the Services are concluded, the Personal Information is deleted.</p>
+                                </div>
+                                <div class="animate-element delay6 fadeInUp">
+                                    <p class="mb-2 text-center"><b>How We Use Children’s Personal Information</b></p>
+                                    <p class="mb-2">We   use   children’s   Personal   Information   to   create individualized reports on   reading comprehension and ability. Based on the reports, we recommend a personalized library of books for each child. We do not use children’s Personal Information for any other purpose.</p>
+                                </div>
+                                <div class="animate-element delay6 fadeInUp">
+                                    <p class="mb-2 text-center"><b>Sharing Children’s Personal Information</b></p>
+                                    <p class="mb-2">We share the Personal Information of children that we collect with teachers, parents, schools and school districts, as applicable. We also share it with our third-party service providers as necessary to provide TeeRead and the Services, each as further set forth below.</p>
+                                    <p class="mb-2">TeeRead does not make children’s Personal Information publicly available, either directly or by allowing children to do the same.</p>
+                                </div>
+
+                                <div class="animate-element delay6 fadeInUp">
+                                    <p class="mb-2"><b>Your Choices & Accuracy of Personal Information We Collect</b></p>
+                                    <p class="mb-2">As a Parent, you always have the right to withhold your consent and prevent TeeRead from collecting Personal Information on or from your child. You may also review what Personal Information we have collected on or from your child at any time upon request. You can instruct TeeRead to delete your child’s Personal Information at any time, or withdraw your previously given consent for the further collection or use of your child’s Personal Information.</p>
+                                    <p class="mb-2">Likewise, you always have the choice whether or not to provide any other Personal Information to TeeRead. As indicated above, some of our Services require that you register with TeeRead but doing so is at your discretion. If you choose not to provide required Personal Information, you can still use any portion of our Services that do not require Personal Information.</p>
+                                    <p class="mb-2">If you do provide us with Personal Information, we want to make sure it remains accurate and up to date. You can use the tools that we make available through our Services to modify or remove certain information related to your Account. If you need to correct or update any other part(s) of your child’s or your own Personal Information, you can submit a change request directly to TeeRead by emailing us at <a href="mailto:trini@teeread.com">trini@teeread.com</a>. Please be sure to include sufficient details to allow us to make the necessary changes.</p>
+                                </div>
+
+                                <div class="animate-element delay6 fadeInUp">
+                                    <p class="mb-2"><b>What Other Personal Information We Collect and How We Collect It</b></p>
+                                    <p class="mb-2">In order to use the Services that we provide, you may need to use an account (“Account”). Establishing an Account requires only an email address and a password initially, though we do request that you provide supplementary Account information so that we can more effectively provide the Services. An Account is not required, nor do we require that you provide any Personal   Information,   in   order   to   access   the   general   information   on   our   Site.</p>
+                                    <p class="mb-2">If you provide any additional Personal Information beyond what we require, such as in your communications   with   us,   doing   so   is   entirely   your   choice.   We   will   retain   the   Personal Information that you choose to provide in those instances.</p>
+                                    <p class="mb-2">We also collect certain data about you automatically when you visit our Site or use our Services. This data may include your IP address, the time and date of your visit, your location, the pages and other content that you access, and the number of times you return to the Site. Collection maybe performed either by  TeeRead's own software and tools or through our integrations with technology provided by third parties. We collect this information by using technologies such as:</p>
+                                    <p class="mb-2"><b>Log Files:</b> A log file is a text file which resides on our servers, and which records pertinent information about your interactions with our Services at the time of access. Log file data is used primarily for diagnostic and auditing purposes.</p>
+                                    <p class="mb-2"><b>Cookies:</b> A cookie is a small data file which resides on your device, and which allows us to recognize you as a user when you return using the same device or web browser. Cookie data is used to customize your experience when you use our Site. You can configure your web browser to warn you each time a cookie is being sent or to refuse cookies completely. However, if you opt to refuse cookies created by our Site, you accept that your ability to use our Services may be impaired or limited, up to and including loss of access to certain Services, until such time as you accept these cookies.</p>
+                                    <p class="mb-2"><b>Embedded Scripts:</b> An embedded script is programming code (particularly JavaScript) that collects information about your interactions with our Site. The code is temporarily downloaded onto your device, from our server or a third-party service provider, and is deactivated or deleted when you disconnect from our Site. You can configure your web browser to disable the use of embedded scripts. However, if you opt to disable embedded scripts which we incorporate in toour Site, you accept that your ability to use our Services may be impaired or limited, up to and including loss of access to certain Services, until such time as you enable these embedded scripts</p>
+                                    <p class="mb-2">We may also use other technologies that collect similar information for security and fraud detection purposes.</p>
+                                </div>
+
+                                <div class="animate-element delay6 fadeInUp">
+                                    <p class="mb-2"><b>How We Use Personal Information</b></p>
+                                    <p class="mb-2">TeeRead uses children’s Personal Information strictly in accordance with the descriptions for the same under the section titled “Children’s Privacy”. Otherwise, we use Personal Information primarily to provide our Services  in manners  including, but not limited to,  responding  to inquiries, providing  customer service, and sending administrative information. We may use Personal Information to contact you in the future to tell you about new service offerings, promotions, opportunities, or other general information about TeeRead or our Services that we think you might be interested in. </p>
+                                    <p class="mb-2">We also use the Personal Information we collect to improve our Site. We review information to learn about how our Site is used and accessed, and to analyze user behavior as a measure of interest in and use of our Site. We may disclose such analyses to third parties in the form of aggregate data, such as overall patterns or demographic reports that do not describe or identify any individual user. We may also use certain subsets of the same information to investigate and prosecute potential breaches of TeeRead license agreements and security policies. We also may share pertinent  Personal  Information with our contractors, vendors, and other  affiliates and partners for the authorized purposes of processing data for marketing, research, analytics, customer support and account management. We use the following third party service providers:</p>
+                                    <ul>
+                                        <li>We use Amazon Web Services for cloud storage and analytics services;</li>
+                                        <li>We use MongoDB as a database system;</li>
+                                        <li>We use Soapbox System API, a speech recognition API, to process audio recordings. All collected audio recordings are anonymized before we share them with Soapbox;</li>
+                                        <li>We use Canva to provide weekly awards to individual children, broken down by class, school, and/or school district; and</li>
+                                        <li>We use Tableaux for development and analytics services.</li>
+                                    </ul>
+                                    <p class="mb-2">Though it is not often necessary, we reserve the right to disclose Personal Information to third parties to protect the rights, property, or safety of TeeRead, our employees, or others.</p>
+                                </div>
+                                <div class="animate-element delay6 fadeInUp">
+                                    <p class="mb-2"><b>Other Disclosures of Personal Information</b></p>
+                                    <p class="mb-2">We do not sell, trade, share, or rent any Personal Information to unaffiliated third parties.</p>
+                                    <p class="mb-2">We will not disclose your Personal Information to any third party except as necessary for a legitimate use as described in this Policy, in connection with a bona fide legal dispute (where the information is relevant and in response to a valid, compulsory legal process), or as otherwise required by law.</p>
+                                    <p class="mb-2">In the event of a merger, acquisition, bankruptcy, or other sale or disposition of all or a portion of TeeRead’s assets, we may disclose Personal Information to the acquiring party(s). In that case, the successor’s use of your Personal Information will continue to be subject to this Policy unless a court orders otherwise or the successor notifies you that your Personal Information will be subject to their own privacy policy. If the successor sends you such a notification, it will include an opportunity for you to opt out. If you submit any Personal Information after such a transfer, that information will be subject to the successor’s privacy policy.</p>
+                                </div>
+                                <div class="animate-element delay6 fadeInUp">
+                                    <p class="mb-2"><b>Third Party Websites</b></p>
+                                    <p class="mb-2">Our Services may contain links to, or otherwise allow you to interact with, certain third-party websites, mobile software applications, and services that are not owned or controlled by TeeRead (each a "Third Party Service"). We are not responsible for the privacy practices or the content of these Third Party Services, and we encourage you to read the terms and conditions and privacy policy of any such Third Party Service that you choose to use.</p>
+                                </div>
+                                <div class="animate-element delay6 fadeInUp">
+                                    <p class="mb-2"><b>Information Security</b></p>
+                                    <p class="mb-2">TeeRead uses commercially reasonable, industry standard security and backup measures to protect the information submitted to us. No method of transmission over the Internet or method of electronic storage and security is 100% secure, though. While we always strive to protect your Personal Information, we cannot guarantee its absolute security. We encourage all our users to retain copies of all uploaded information on their own systems, to adhere to all corporate security policies or guidelines pertinent to your situation, and to practice personal habits of digital security.</p>
+                                </div>
+                                <div class="animate-element delay6 fadeInUp">
+                                    <p class="mb-2"><b>New York Privacy</b></p>
+                                    <p class="mb-2">If TeeRead provides Services through a school or other educational institution subject to the laws of the state of New York, pursuant to New York Education Law § 2-d, Parents Bill of Rights for Data Privacy and Security will be included in our contract with the school.</p>
+                                </div>
+                                <div class="animate-element delay6 fadeInUp">
+                                    <p class="mb-2"><b>Connecticut Privacy</b></p>
+                                    <p class="mb-2">If TeeRead provides Services through a school or other educational institution subject to the laws of the state of Connecticut, then pursuant to Public Act No. 16-189, Connecticut law will govern the duties between us and the local or regional board of education for the school or other educational institution, and we will comply with Public Act No. 16-189.</p>
+                                    <p class="mb-2">We will not use the school’s data for any purpose beyond the purposes indicated in this Policy. Specifically, we will not use such data in any targeted advertising. TeeRead will use at least industry standard security to protect the records generated through our Services.</p>
+                                </div>
+                                <div class="animate-element delay6 fadeInUp">
+                                    <p class="mb-2"><b>Maryland and Colorado Privacy</b></p>
+                                    <p class="mb-2">If TeeRead provides Services through a school or other educational institution subject to the laws of the state of Maryland or Colorado, we will not use the school’s data for any purpose beyond the purposed indicated in this Policy. Specifically, we will not use such data in any targeted advertising.</p>
+                                </div>
+                                <div class="animate-element delay6 fadeInUp">
+                                    <p class="mb-2"><b>California Privacy</b></p>
+                                    <p class="mb-2">California residents have additional rights regarding the privacy and disclosure of Personal Information, including, but not limited to a right to request that TeeRead not sell their Personal Information, as well as a right to be informed about our other uses and disclosures of their Personal Information.</p>
+                                    <p class="mb-2">TeeRead does not sell your Personal Information, and we use and disclose Personal Information solely in accordance with this Policy. If you are a California resident and would like additional information about our use of your Personal Information, please contact us as indicated below.</p>
+                                </div>
+                                <div class="animate-element delay6 fadeInUp">
+                                    <p class="mb-2 text-center"><b>California Do Not Track Notice</b></p>
+                                    <p class="mb-2">California law requires websites to disclose whether they and/or any third party(s) collect Personal Information about their users’ online activities over time and across different sites. California law also requires that we disclose how we respond to “do not track” signals and similar mechanisms.</p>
+                                    <p class="mb-2">We do not track you over time or across third-party websites. As such, we do not respond to “do not track” signals. If you would like to learn more about browser tracking signals and “do not track” generally, please visit <a href="https://allaboutdnt.org" target="_blank">https://allaboutdnt.org</a>.</p>
+                                </div>
+                                <div class="animate-element delay6 fadeInUp">
+                                    <p class="mb-2"><b>Nevada Privacy</b></p>
+                                    <p class="mb-2">If you are a Nevada resident, you may ask us to add you to our opt-out list for possible future sales of certain information that we have collected or will collect about you. To submit such a request, please contact us as indicated below.</p>
+                                </div>
+                                <div class="animate-element delay6 fadeInUp">
+                                    <p class="mb-2"><b>E.U. Resident Privacy</b></p>
+                                    <p class="mb-2">TeeRead strives to comply with the provisions of the European Union’s General Data Protection Regulation (“GDPR”) as to the Personal Information in its possession of E.U.-based persons (“data subjects”). We only process Personal Information on data subjects where we have a lawful basis to do so, which may include the consent of the person (as in the case of Site visitors who provide their information), compliance with a legal obligation, or the legitimate interest of the controller or a third party. We will provide notice to all data subjects as required by GDPR Article 13 or 14, as appropriate, and honor the rights of data subjects provided for in Articles 12-23, including the right to be forgotten.</p>
+                                </div>
+                                <div class="animate-element delay6 fadeInUp">
+                                    <p class="mb-2"><b>Consent to Transfer</b></p>
+                                    <p class="mb-2">TeeRead is operated in the United States. If you are outside of the United States, please be aware that any information we collect will be transferred to and processed in the United States. By using our Services, or otherwise providing us with Personal Information, you understand and consent to this transfer, processing, and storage of your information in the United States, a jurisdiction in which the privacy laws may not be as comprehensive as, or conflict with, those in the country where you reside and/or are a citizen.</p>
+                                </div>
+                                <div class="animate-element delay6 fadeInUp">
+                                    <p class="mb-2"><b>Questions or Comments</b></p>
+                                    <p class="mb-2">If you have any questions or comments about this Policy, the practices, or use of the Site, please feel free to contact us by email at <a href="mailto:trini@teeread.com">trini@teeread.com</a>, or by mail at the following address: TeeRead LLC, 116 W. 78th Street, New York City, NY 10024, United States, Attn: Data Privacy.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- cards -->
+                <br>
+
+                <footer class="flex-container footer pt-0">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 my-4">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-9">
+                                        <a
+                                                class="text-white fw-bold link-support"
+                                                href="support.html"
+                                        >Support</a
+                                        >
+                                        <div style="display: none">
+                                            <span class="mr-3 ml-3 line-vertical"></span>
+                                            <a
+                                                    class="text-white fw-bold link-support"
+                                                    href="https://app.termly.io/document/privacy-policy/c76f6cb4-ce50-4872-b280-192b5e4c8827"
+                                                    target="_blank"
+                                            >Privacy policy</a
+                                            >
+                                            <span class="mr-3 ml-3 line-vertical"></span>
+                                            <a
+                                                    class="text-white fw-bold link-support"
+                                                    href="https://app.termly.io/document/terms-and-conditions/ec46762d-5a00-4e7b-89d4-2cf379cabaf8"
+                                                    target="_blank"
+                                            >Terms and conditions</a
+                                            >
+                                            <span class="mr-3 ml-3 line-vertical"></span>
+                                            <a
+                                                    class="text-white fw-bold link-support"
+                                                    href="https://app.termly.io/document/cookie-policy/ec8e39e6-6a7b-4b0b-8760-6b07dab347eb"
+                                                    target="_blank"
+                                            >Cookie policy</a
+                                            >
+                                        </div>
+                                        <span class="mr-3 ml-3 line-vertical"></span>
+                                        <small class="ml-3 copyright-white"
+                                        >Copyright © 2021. All rights reserved.</small
+                                        >
+                                    </div>
+                                    <div class="col-3">
+                                        <ul
+                                                class="social social-rounded d-flex justify-content-end"
+                                        >
+                                            <li>
+                                                <a
+                                                        href="https://www.youtube.com/channel/UCop2B0gRpACkFYAWOAhelCw"
+                                                        target="_link"
+                                                ><i class="lni lni-youtube"></i
+                                                ></a>
+                                            </li>
+                                            <li class="mr-0">
+                                                <a
+                                                        href="https://www.instagram.com/teereadus/"
+                                                        target="_link"
+                                                ><i class="lni lni-instagram-original"></i
+                                                ></a>
+                                            </li>
+                                            <!-- ---------------- HIDE --------------- -->
+                                            <!-- <li><a href="#" target="_link"><i class="lni lni-facebook-filled"></i></a></li>
+                                            <li class="mr-0"><a href="#" target="_link"><i class="lni lni-twitter-filled"></i></a></li> -->
+                                            <!-- ---------------- /HIDE --------------- -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="send-request">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Join the waitlist</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="lni lni-close"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="slide-descr">Sign up and be the first to try TeeRead!</p>
+                <!-- Begin Mailchimp Signup Form -->
+                <div id="mc_embed_signup">
+                    <form
+                            action="https://teeread.us10.list-manage.com/subscribe/post?u=e3be2f84ce84baafe79715602&amp;id=d62dc9aa78"
+                            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                            class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <div class="row">
+                                <div class="mc-field-group col-sm-12">
+                                    <label for="mce-EMAIL">Email Address (required)</label>
+                                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                                </div>
+                                <div class="mc-field-group col-md-6 col-sm-12">
+                                    <label for="mce-NAME">Name </label>
+                                    <input type="text" value="" name="NAME" class="" id="mce-NAME">
+                                </div>
+                                <div class="mc-field-group col-md-6 col-sm-12">
+                                    <label for="mce-SCHOOL">School Name </label>
+                                    <input type="text" value="" name="SCHOOL" class="" id="mce-SCHOOL">
+                                </div>
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_e3be2f84ce84baafe79715602_d62dc9aa78" tabindex="-1" value="">
+                            </div>
+                            <div class="clear center-md">
+                                <input type="submit" value="Join the waitlist!" name="subscribe"
+                                       id="mc-embedded-subscribe" class="button">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <script type='text/javascript'
+                        src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                <script
+                        type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'NAME'; ftypes[1] = 'text'; fnames[2] = 'SCHOOL'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+                <!--End mc_embed_signup-->
+                <!-- <form class="form-request a-ajax-form">
+          <div class="form-group form-group-material a-form-group">
+            <input type="text" name="name" class="form-control" placeholder="Name">
+          </div>
+          <div class="form-group form-group-material a-form-group">
+            <input type="email" name="email" class="form-control" required="" placeholder="Email Address (required)">
+          </div>
+          <div class="form-group form-group-material a-form-group">
+            <input type="text" name="school-name" class="form-control" placeholder="School Name">
+          </div>
+          <div class="message text-success success-message">Your message is successfully sent...</div>
+          <div class="message text-danger error-message">Sorry something went wrong</div>
+          <div class="control-btn text-right">
+            <button type="submit" class="btn btn-success">Submit</button>
+          </div>
+        </form> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.pagepiling.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/pagepiling.reading.important.js"></script>
+
+</body>
+
+</html>
